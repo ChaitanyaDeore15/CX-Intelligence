@@ -150,7 +150,7 @@ export function computeSegmentMetrics(
   }
 
   const result: SegmentMetric[] = [];
-  for (const [val, recs] of groups.entries()) {
+  Array.from(groups.entries()).forEach(([val, recs]) => {
     const nps = calculateNps(recs.map((x) => x.npsScore));
     const csat = calculateCsat(recs.map((x) => x.csatScore));
     result.push({
@@ -160,7 +160,7 @@ export function computeSegmentMetrics(
       csat,
       isReliable: recs.length >= 30,
     });
-  }
+  });
 
   // Sort descending by response volume
   return result.sort((a, b) => b.totalResponses - a.totalResponses);

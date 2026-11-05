@@ -71,7 +71,7 @@ export function extractSemanticThemes(
     const { scrubbedText } = scrubPII(rec.commentText);
     const lower = scrubbedText.toLowerCase();
 
-    for (const [themeName, entry] of themeMap.entries()) {
+    Array.from(themeMap.entries()).forEach(([themeName, entry]) => {
       const match = entry.def.keywords.some((kw) => lower.includes(kw));
       if (match) {
         entry.assigned.push({
@@ -81,13 +81,13 @@ export function extractSemanticThemes(
           csat: rec.csatScore,
         });
       }
-    }
+    });
   }
 
   const results: ExtractedThemeResult[] = [];
 
-  for (const [themeName, entry] of themeMap.entries()) {
-    if (entry.assigned.length === 0) continue;
+  Array.from(themeMap.entries()).forEach(([themeName, entry]) => {
+    if (entry.assigned.length === 0) return;
 
     // Deterministically calculate satisfaction impact score
     // Higher impact score indicates strong association with detractors (NPS <= 6 or CSAT <= 2)
@@ -110,7 +110,7 @@ export function extractSemanticThemes(
       assignedResponseIds: entry.assigned.map((a) => a.id),
       representativeComment: representative.commentText,
     });
-  }
+  });
 
   return results.sort((a, b) => b.commentCount - a.commentCount);
 }
