@@ -1,0 +1,203 @@
+// Prisma Schema for CX Intelligence Platform
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Dataset {
+  id              String           @id @default(uuid())
+  name            String
+  fileName        String
+  fileSizeBytes   Int
+  totalRows       Int              @default(0)
+  validRows       Int              @default(0)
+  status          String           @default("UPLOADED") // UPLOADED, MAPPED, VALIDATED, READY, FAILED
+  columnMapping   String?          // JSON string of ColumnMapping
+  dateRangeStart  DateTime?
+  dateRangeEnd    DateTime?
+  createdAt       DateTime         @default(now())
+  updatedAt       DateTime         @updatedAt
+
+  responses       SurveyResponse[]
+  validationIssues ValidationIssue[]
+  analysisJobs    AnalysisJob[]
+  themes          Theme[]
+  insights        GeneratedInsight[]
+  reports         Report[]
+  auditEvents     AuditEvent[]
+
+  @@index([status])
+  @@index([createdAt])
+}
+
+model SurveyResponse {
+  id              String           @id @default(uuid())
+  datasetId       String
+  rowNumber       Int
+  sourceId        String?
+  npsScore        Int?             // 0-10
+  csatScore       Int?             // 1-5 or custom scale
+  responseDate    DateTime?
+  commentText     String?
+  product         String?
+  region          String?
+  customerType    String?
+  metadataJson    String?          // JSON additional categorical fields
+  createdAt       DateTime         @default(now())
+
+  dataset         Dataset          @relation(fields: [datasetId], references: [id], onDelete: Cascade)
+  sentimentResult SentimentResult?
+  themeAssignments CommentThemeAssignment[]
+  insightEvidences InsightEvidence[]
+
+  @@index([datasetId, npsScore])
+  @@index([datasetId, csatScore])
+  @@index([datasetId, responseDate])
+  @@index([datasetId, product])
+  @@index([datasetId, region])
+  @@index([datasetId, customerType])
+}
+
+model ValidationIssue {
+  id          String   @id @default(uuid())
+  datasetId   String
+  rowNumber   Int
+  column      String?
+  errorType   String   // MISSING_REQUIRED, OUT_OF_RANGE, INVALID_DATE, MALFORMED_ROW, DUPLICATE
+  message     String
+  severity    String   // ERROR, WARNING
+  createdAt   DateTime @default(now())
+
+  dataset     Dataset  @relation(fields: [datasetId], references: [id], onDelete: Cascade)
+
+  @@index([datasetId, severity])
+}
+
+model AnalysisJob {
+  id           String    @id @default(uuid())
+  datasetId    String
+  jobType      String    // SENTIMENT, THEMES, INSIGHTS
+  status       String    @default("PENDING") // PENDING, PROCESSING, COMPLETED, FAILED
+  progress     Float     @default(0.0) // 0 to 100
+  totalItems   Int       @default(0)
+  processedItems Int     @default(0)
+  errorMessage String?
+  startedAt    DateTime?
+  completedAt  DateTime?
+  createdAt    DateTime  @default(now())
+
+  dataset      Dataset   @relation(fields: [datasetId], references: [id], onDelete: Cascade)
+
+  @@index([datasetId, jobType, status])
+}
+
+model SentimentResult {
+  id          String         @id @default(uuid())
+  responseId  String         @unique
+  sentiment   String         // POSITIVE, NEUTRAL, NEGATIVE
+  confidence  Float          @default(1.0)
+  explanation String?
+  modelName   String?
+  createdAt   DateTime       @default(now())
+
+  response    SurveyResponse @relation(fields: [responseId], references: [id], onDelete: Cascade)
+
+  @@index([sentiment])
+}
+
+model Theme {
+  id           String                   @id @default(uuid())
+  datasetId    String
+  name         String
+  description  String
+  commentCount Int                      @default(0)
+  impactScore  Float?                   // Correlation / Association with low satisfaction
+  createdAt    DateTime                 @default(now())
+
+  dataset      Dataset                  @relation(fields: [datasetId], references: [id], onDelete: Cascade)
+  assignments  CommentThemeAssignment[]
+
+  @@index([datasetId, name])
+}
+
+model CommentThemeAssignment {
+  id          String         @id @default(uuid())
+  responseId  String
+  themeId     String
+  relevance   Float          @default(1.0)
+  isRepresentative Boolean   @default(false)
+  createdAt   DateTime       @default(now())
+
+  response    SurveyResponse @relation(fields: [responseId], references: [id], onDelete: Cascade)
+  theme       Theme          @relation(fields: [themeId], references: [id], onDelete: Cascade)
+
+  @@unique([responseId, themeId])
+  @@index([themeId, isRepresentative])
+}
+
+model GeneratedInsight {
+  id                 String            @id @default(uuid())
+  datasetId          String
+  title              String
+  summary            String
+  category           String            // CHURN_RISK, SERVICE_ISSUE, PRODUCT_GAP, POSITIVE_HIGHLIGHT
+  impactRank         Int               // 1 is top priority
+  evidenceStrength   String            // STRONG, MODERATE, PRELIMINARY
+  metricImpactJson   String            // JSON metrics (e.g. { npsDrop: -14, affectedRows: 240 })
+  segmentScope       String?           // e.g. "Region: EMEA, Product: Enterprise App"
+  recommendation     String
+  suggestedAction    String
+  limitations        String?
+  createdAt          DateTime          @default(now())
+
+  dataset            Dataset           @relation(fields: [datasetId], references: [id], onDelete: Cascade)
+  evidences          InsightEvidence[]
+
+  @@index([datasetId, impactRank])
+}
+
+model InsightEvidence {
+  id          String           @id @default(uuid())
+  insightId   String
+  responseId  String
+  excerpt     String
+  createdAt   DateTime         @default(now())
+
+  insight     GeneratedInsight @relation(fields: [insightId], references: [id], onDelete: Cascade)
+  response    SurveyResponse   @relation(fields: [responseId], references: [id], onDelete: Cascade)
+
+  @@index([insightId])
+  @@index([responseId])
+}
+
+model Report {
+  id          String   @id @default(uuid())
+  datasetId   String
+  title       String
+  reportType  String   // EXECUTIVE_PDF, CSV_EXPORT
+  filterState String?  // JSON serialized filter state
+  fileUrl     String?
+  createdAt   DateTime @default(now())
+
+  dataset     Dataset  @relation(fields: [datasetId], references: [id], onDelete: Cascade)
+
+  @@index([datasetId, createdAt])
+}
+
+model AuditEvent {
+  id          String   @id @default(uuid())
+  datasetId   String?
+  action      String   // DATASET_UPLOADED, VALIDATION_RUN, INSIGHTS_GENERATED, DATASET_DELETED
+  detailsJson String?
+  actor       String   @default("system")
+  createdAt   DateTime @default(now())
+
+  dataset     Dataset? @relation(fields: [datasetId], references: [id], onDelete: SetNull)
+
+  @@index([action, createdAt])
+}
