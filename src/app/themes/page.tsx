@@ -8,13 +8,18 @@ import { Tag, Sparkles, MessageSquare } from 'lucide-react';
 export const dynamic = 'force-dynamic';
 
 export default async function ThemesPage() {
-  const themes = await prisma.theme.findMany({
-    include: {
-      _count: {
-        select: { assignments: true },
+  let themes: any[] = [];
+  try {
+    themes = await prisma.theme.findMany({
+      include: {
+        _count: {
+          select: { assignments: true },
+        },
       },
-    },
-  });
+    });
+  } catch (e) {
+    console.error('Database connection error in Themes:', e);
+  }
 
   return (
     <div className="max-w-7xl mx-auto space-y-6">

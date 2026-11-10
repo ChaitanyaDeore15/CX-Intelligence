@@ -8,12 +8,17 @@ import { MessageSquare, Sparkles, Filter, Search } from 'lucide-react';
 export const dynamic = 'force-dynamic';
 
 export default async function SentimentPage() {
-  const sentiments = await prisma.sentimentResult.findMany({
-    include: {
-      response: true,
-    },
-    take: 50,
-  });
+  let sentiments: any[] = [];
+  try {
+    sentiments = await prisma.sentimentResult.findMany({
+      include: {
+        response: true,
+      },
+      take: 50,
+    });
+  } catch (e) {
+    console.error('Database connection error in Sentiment:', e);
+  }
 
   const total = sentiments.length;
   const positive = sentiments.filter((s) => s.sentiment === 'POSITIVE').length;

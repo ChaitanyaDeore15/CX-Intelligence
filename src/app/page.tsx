@@ -20,21 +20,29 @@ import { calculateNps, calculateCsat } from '@/lib/metrics';
 export const dynamic = 'force-dynamic';
 
 export default async function HomePage() {
-  // Query datasets to show live workspace status
-  const datasets = await prisma.dataset.findMany({
-    orderBy: { createdAt: 'desc' },
-    take: 5,
-    include: {
-      _count: {
-        select: { responses: true, themes: true, insights: true },
-      },
-    },
-  });
+  let datasets: any[] = [];
+  let responses: any[] = [];
+  let dbConnected = true;
 
-  const responses = await prisma.surveyResponse.findMany({
-    take: 100,
-    select: { npsScore: true, csatScore: true, commentText: true },
-  });
+  try {
+    datasets = await prisma.dataset.findMany({
+      orderBy: { createdAt: 'desc' },
+      take: 5,
+      include: {
+        _count: {
+          select: { responses: true, themes: true, insights: true },
+        },
+      },
+    });
+
+    responses = await prisma.surveyResponse.findMany({
+      take: 100,
+      select: { npsScore: true, csatScore: true, commentText: true },
+    });
+  } catch (error) {
+    console.error('Database connection notice on HomePage:', error);
+    dbConnected = false;
+  }
 
   const nps = calculateNps(responses.map((r) => r.npsScore));
   const csat = calculateCsat(responses.map((r) => r.csatScore));
@@ -42,6 +50,13 @@ export default async function HomePage() {
   return (
     <div className="max-w-7xl mx-auto space-y-8">
       {/* Hero section */}
+      {!dbConnected && (
+        <Alert variant="warning" title="Database Configuration Notice">
+          The application is currently running without an initialized database connection or the database tables have not been created yet.
+          Please ensure <code>DATABASE_URL</code> is set in your Vercel Environment Variables and migrations are pushed.
+        </Alert>
+      )}
+
       <div className="bg-gradient-to-r from-slate-900 via-indigo-950 to-slate-900 rounded-3xl p-8 md:p-10 text-white shadow-xl relative overflow-hidden">
         <div className="relative z-10 max-w-3xl space-y-4">
           <div className="inline-flex items-center gap-2 bg-indigo-500/20 border border-indigo-400/30 px-3 py-1 rounded-full text-xs font-semibold text-indigo-300">

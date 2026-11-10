@@ -8,14 +8,19 @@ import { Sparkles, ArrowRight, ShieldCheck, CheckCircle2, AlertOctagon } from 'l
 export const dynamic = 'force-dynamic';
 
 export default async function InsightsPage() {
-  const insights = await prisma.generatedInsight.findMany({
-    orderBy: { impactRank: 'asc' },
-    include: {
-      evidences: {
-        include: { response: true },
+  let insights: any[] = [];
+  try {
+    insights = await prisma.generatedInsight.findMany({
+      orderBy: { impactRank: 'asc' },
+      include: {
+        evidences: {
+          include: { response: true },
+        },
       },
-    },
-  });
+    });
+  } catch (e) {
+    console.error('Database connection error in Insights:', e);
+  }
 
   return (
     <div className="max-w-7xl mx-auto space-y-6">

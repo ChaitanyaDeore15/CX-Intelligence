@@ -9,19 +9,24 @@ import { Layers, UploadCloud, Trash2, BarChart2, Calendar, FileText } from 'luci
 export const dynamic = 'force-dynamic';
 
 export default async function WorkspacePage() {
-  const datasets = await prisma.dataset.findMany({
-    orderBy: { createdAt: 'desc' },
-    include: {
-      _count: {
-        select: {
-          responses: true,
-          validationIssues: true,
-          themes: true,
-          insights: true,
+  let datasets: any[] = [];
+  try {
+    datasets = await prisma.dataset.findMany({
+      orderBy: { createdAt: 'desc' },
+      include: {
+        _count: {
+          select: {
+            responses: true,
+            validationIssues: true,
+            themes: true,
+            insights: true,
+          },
         },
       },
-    },
-  });
+    });
+  } catch (e) {
+    console.error('Database connection error in Workspace:', e);
+  }
 
   return (
     <div className="max-w-6xl mx-auto space-y-6">

@@ -9,7 +9,12 @@ import { PieChart, AlertTriangle } from 'lucide-react';
 export const dynamic = 'force-dynamic';
 
 export default async function SegmentsPage() {
-  const responses = await prisma.surveyResponse.findMany();
+  let responses: any[] = [];
+  try {
+    responses = await prisma.surveyResponse.findMany();
+  } catch (e) {
+    console.error('Database connection error in Segments:', e);
+  }
 
   // Aggregate by Product
   const productMap: Record<string, typeof responses> = {};
