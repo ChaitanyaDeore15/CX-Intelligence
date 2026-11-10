@@ -1,43 +1,80 @@
-import React from 'react';
-import { prisma } from '@/lib/db';
-import { calculateNps, calculateCsat, isSampleReliable } from '@/lib/metrics';
-import { Card, CardHeader, CardContent } from '@/components/ui/Card';
+'use client';
+
+import React, { useEffect, useState } from 'react';
+import { Card, CardHeader } from '@/components/ui/Card';
 import { Badge } from '@/components/ui/Badge';
-import { Alert } from '@/components/ui/Alert';
-import { PieChart, AlertTriangle } from 'lucide-react';
+import { Button } from '@/components/ui/Button';
+import { AlertTriangle, RefreshCw } from 'lucide-react';
 
-export const dynamic = 'force-dynamic';
+export default function SegmentsPage() {
+  const [datasets, setDatasets] = useState<any[]>([]);
+  const [selectedDatasetId, setSelectedDatasetId] = useState<string>('');
+  const [loading, setLoading] = useState(true);
+  const [segmentsData, setSegmentsData] = useState<{
+    byProduct: any[];
+    byRegion: any[];
+    byCustomerType: any[];
+  } | null>(null);
 
-export default async function SegmentsPage() {
-  let responses: any[] = [];
-  try {
-    responses = await prisma.surveyResponse.findMany();
-  } catch (e) {
-    console.error('Database connection error in Segments:', e);
-  }
+  useEffect(() => {
+    fetch('/api/datasets')
+      .then((res) => res.json())
+      .then((d) => {
+        if (d.success && d.data.length > 0) {
+          setDatasets(d.data);
+          setSelectedDatasetId(d.data[0].id);
+        } else {
+          setLoading(false);
+        }
+      });
+  }, []);
 
-  // Aggregate by Product
-  const productMap: Record<string, typeof responses> = {};
-  // Aggregate by Region
-  const regionMap: Record<string, typeof responses> = {};
+  const loadSegments = () => {
+    if (!selectedDatasetId) return;
+    setLoading(true);
+    fetch(`/api/datasets/${selectedDatasetId}/analytics`)
+      .then((res) => res.json())
+      .then((res) => {
+        if (res.success && res.data.segments) {
+          setSegmentsData(res.data.segments);
+        }
+      })
+      .finally(() => setLoading(false));
+  };
 
-  responses.forEach((r) => {
-    const prod = r.product || 'Unassigned';
-    if (!productMap[prod]) productMap[prod] = [];
-    productMap[prod].push(r);
-
-    const reg = r.region || 'Unassigned';
-    if (!regionMap[reg]) regionMap[reg] = [];
-    regionMap[reg].push(r);
-  });
+  useEffect(() => {
+    loadSegments();
+  }, [selectedDatasetId]);
 
   return (
     <div className="max-w-7xl mx-auto space-y-6">
-      <div>
-        <h1 className="text-2xl font-bold text-slate-900">Segment Analysis & Comparison</h1>
-        <p className="text-xs text-slate-500 mt-1">
-          Compare CX scores across dimensions (Product, Region, Customer Tier) with automated statistical reliability checks.
-        </p>
+      <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
+        <div>
+          <h1 className="text-2xl font-bold text-slate-900">Segment Analysis & Comparison</h1>
+          <p className="text-xs text-slate-500 mt-1">
+            Compare CX scores across dimensions (Product, Region, Customer Tier) with automated statistical reliability checks.
+          </p>
+        </div>
+
+        <div className="flex items-center gap-3">
+          {datasets.length > 0 && (
+            <select
+              value={selectedDatasetId}
+              onChange={(e) => setSelectedDatasetId(e.target.value)}
+              className="text-xs font-semibold bg-white border border-slate-300 rounded-lg p-2 text-slate-800 shadow-sm"
+            >
+              {datasets.map((d) => (
+                <option key={d.id} value={d.id}>
+                  {d.name} ({d.totalRows} rows)
+                </option>
+              ))}
+            </select>
+          )}
+          <Button variant="outline" size="sm" onClick={loadSegments} className="gap-1.5">
+            <RefreshCw className={`h-3.5 w-3.5 ${loading ? 'animate-spin' : ''}`} />
+            <span>Refresh</span>
+          </Button>
+        </div>
       </div>
 
       {/* Product breakdown */}
@@ -59,39 +96,40 @@ export default async function SegmentsPage() {
               </tr>
             </thead>
             <tbody className="divide-y divide-slate-100">
-              {Object.entries(productMap).map(([prod, list]) => {
-                const nps = calculateNps(list.map((x) => x.npsScore));
-                const csat = calculateCsat(list.map((x) => x.csatScore));
-                const reliable = isSampleReliable(list.length);
-
-                return (
-                  <tr key={prod} className="hover:bg-slate-50/80">
-                    <td className="py-3.5 px-5 font-semibold text-slate-900">{prod}</td>
-                    <td className="py-3.5 px-5 text-slate-600 font-mono">{list.length}</td>
-                    <td className="py-3.5 px-5 font-bold">
-                      <span className={nps.npsScore && nps.npsScore > 0 ? 'text-emerald-600' : 'text-rose-600'}>
-                        {nps.npsScore !== null ? `${nps.npsScore > 0 ? '+' : ''}${nps.npsScore}` : 'N/A'}
+              {segmentsData?.byProduct?.map((item: any) => (
+                <tr key={item.segmentValue} className="hover:bg-slate-50/80">
+                  <td className="py-3.5 px-5 font-semibold text-slate-900">{item.segmentValue}</td>
+                  <td className="py-3.5 px-5 text-slate-600 font-mono">{item.totalResponses}</td>
+                  <td className="py-3.5 px-5 font-bold">
+                    <span className={item.nps.npsScore && item.nps.npsScore > 0 ? 'text-emerald-600' : 'text-rose-600'}>
+                      {item.nps.npsScore !== null ? `${item.nps.npsScore > 0 ? '+' : ''}${item.nps.npsScore}` : 'N/A'}
+                    </span>
+                  </td>
+                  <td className="py-3.5 px-5 font-medium text-slate-900">
+                    {item.csat.csatScorePct !== null ? `${item.csat.csatScorePct}%` : 'N/A'}
+                  </td>
+                  <td className="py-3.5 px-5 text-slate-700">
+                    {item.csat.averageScore !== null ? `${item.csat.averageScore} / 5.0` : 'N/A'}
+                  </td>
+                  <td className="py-3.5 px-5">
+                    {item.isReliable ? (
+                      <Badge variant="success" size="sm">Sufficient Sample (N ≥ 30)</Badge>
+                    ) : (
+                      <span className="inline-flex items-center gap-1 text-[11px] font-medium text-amber-700 bg-amber-50 px-2 py-0.5 rounded border border-amber-200">
+                        <AlertTriangle className="h-3 w-3" />
+                        Small Sample (N &lt; 30)
                       </span>
-                    </td>
-                    <td className="py-3.5 px-5 font-medium text-slate-900">
-                      {csat.csatScorePct !== null ? `${csat.csatScorePct}%` : 'N/A'}
-                    </td>
-                    <td className="py-3.5 px-5 text-slate-700">
-                      {csat.averageScore !== null ? `${csat.averageScore} / 5.0` : 'N/A'}
-                    </td>
-                    <td className="py-3.5 px-5">
-                      {reliable ? (
-                        <Badge variant="success" size="sm">Sufficient Sample (N ≥ 30)</Badge>
-                      ) : (
-                        <span className="inline-flex items-center gap-1 text-[11px] font-medium text-amber-700 bg-amber-50 px-2 py-0.5 rounded border border-amber-200">
-                          <AlertTriangle className="h-3 w-3" />
-                          Small Sample (N &lt; 30)
-                        </span>
-                      )}
-                    </td>
-                  </tr>
-                );
-              })}
+                    )}
+                  </td>
+                </tr>
+              ))}
+              {(!segmentsData?.byProduct || segmentsData.byProduct.length === 0) && (
+                <tr>
+                  <td colSpan={6} className="py-6 text-center text-slate-400">
+                    No product breakdown data found for the selected dataset.
+                  </td>
+                </tr>
+              )}
             </tbody>
           </table>
         </div>
@@ -116,39 +154,40 @@ export default async function SegmentsPage() {
               </tr>
             </thead>
             <tbody className="divide-y divide-slate-100">
-              {Object.entries(regionMap).map(([reg, list]) => {
-                const nps = calculateNps(list.map((x) => x.npsScore));
-                const csat = calculateCsat(list.map((x) => x.csatScore));
-                const reliable = isSampleReliable(list.length);
-
-                return (
-                  <tr key={reg} className="hover:bg-slate-50/80">
-                    <td className="py-3.5 px-5 font-semibold text-slate-900">{reg}</td>
-                    <td className="py-3.5 px-5 text-slate-600 font-mono">{list.length}</td>
-                    <td className="py-3.5 px-5 font-bold">
-                      <span className={nps.npsScore && nps.npsScore > 0 ? 'text-emerald-600' : 'text-rose-600'}>
-                        {nps.npsScore !== null ? `${nps.npsScore > 0 ? '+' : ''}${nps.npsScore}` : 'N/A'}
+              {segmentsData?.byRegion?.map((item: any) => (
+                <tr key={item.segmentValue} className="hover:bg-slate-50/80">
+                  <td className="py-3.5 px-5 font-semibold text-slate-900">{item.segmentValue}</td>
+                  <td className="py-3.5 px-5 text-slate-600 font-mono">{item.totalResponses}</td>
+                  <td className="py-3.5 px-5 font-bold">
+                    <span className={item.nps.npsScore && item.nps.npsScore > 0 ? 'text-emerald-600' : 'text-rose-600'}>
+                      {item.nps.npsScore !== null ? `${item.nps.npsScore > 0 ? '+' : ''}${item.nps.npsScore}` : 'N/A'}
+                    </span>
+                  </td>
+                  <td className="py-3.5 px-5 font-medium text-slate-900">
+                    {item.csat.csatScorePct !== null ? `${item.csat.csatScorePct}%` : 'N/A'}
+                  </td>
+                  <td className="py-3.5 px-5 text-slate-700">
+                    {item.csat.averageScore !== null ? `${item.csat.averageScore} / 5.0` : 'N/A'}
+                  </td>
+                  <td className="py-3.5 px-5">
+                    {item.isReliable ? (
+                      <Badge variant="success" size="sm">Sufficient Sample (N ≥ 30)</Badge>
+                    ) : (
+                      <span className="inline-flex items-center gap-1 text-[11px] font-medium text-amber-700 bg-amber-50 px-2 py-0.5 rounded border border-amber-200">
+                        <AlertTriangle className="h-3 w-3" />
+                        Small Sample (N &lt; 30)
                       </span>
-                    </td>
-                    <td className="py-3.5 px-5 font-medium text-slate-900">
-                      {csat.csatScorePct !== null ? `${csat.csatScorePct}%` : 'N/A'}
-                    </td>
-                    <td className="py-3.5 px-5 text-slate-700">
-                      {csat.averageScore !== null ? `${csat.averageScore} / 5.0` : 'N/A'}
-                    </td>
-                    <td className="py-3.5 px-5">
-                      {reliable ? (
-                        <Badge variant="success" size="sm">Sufficient Sample (N ≥ 30)</Badge>
-                      ) : (
-                        <span className="inline-flex items-center gap-1 text-[11px] font-medium text-amber-700 bg-amber-50 px-2 py-0.5 rounded border border-amber-200">
-                          <AlertTriangle className="h-3 w-3" />
-                          Small Sample (N &lt; 30)
-                        </span>
-                      )}
-                    </td>
-                  </tr>
-                );
-              })}
+                    )}
+                  </td>
+                </tr>
+              ))}
+              {(!segmentsData?.byRegion || segmentsData.byRegion.length === 0) && (
+                <tr>
+                  <td colSpan={6} className="py-6 text-center text-slate-400">
+                    No regional breakdown data found for the selected dataset.
+                  </td>
+                </tr>
+              )}
             </tbody>
           </table>
         </div>
