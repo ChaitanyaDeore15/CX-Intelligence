@@ -63,13 +63,13 @@ export const Sidebar: React.FC = () => {
       </nav>
 
       {/* Footer info box */}
-      <div className="p-4 border-t border-slate-800 text-xs text-slate-400 space-y-2">
+      <div className="p-4 border-t border-slate-800 text-xs text-slate-400 space-y-1.5">
         <div className="flex items-center gap-2">
-          <HelpCircle className="h-4 w-4 text-slate-500" />
-          <span className="font-medium text-slate-300">Phase 1 Foundation</span>
+          <Shield className="h-3.5 w-3.5 text-indigo-400" />
+          <span className="font-semibold text-slate-300">CX Intelligence Platform</span>
         </div>
         <p className="text-[11px] leading-relaxed text-slate-400">
-          Deterministic CX metrics calculation, normalized schema, and privacy-first architecture.
+          Deterministic CX metrics, PII redaction, and evidence-grounded AI insights.
         </p>
       </div>
     </aside>
