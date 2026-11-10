@@ -1,0 +1,8 @@
+response_id,date,nps_score,csat_score,comment,product,region,customer_type
+ERR-001,2026-09-01,15,5,"Out of range NPS score (15, should be flagged as ERROR)",Mobile App,EMEA,Enterprise
+ERR-002,2026-09-02,-4,4,"Negative NPS score (-4, should be flagged as ERROR)",Mobile App,EMEA,Enterprise
+ERR-003,2026-09-03,8,9,"Out of range CSAT rating (9 on 1-5 scale, flagged as ERROR)",Analytics Cloud,North America,SMB
+ERR-004,bad-date-format,10,5,"Unparseable date string (flagged as WARNING)",Analytics Cloud,North America,SMB
+DUP-001,2026-09-05,10,5,"Duplicate response identifier 1st instance",Enterprise Suite,APAC,Enterprise
+DUP-001,2026-09-06,9,4,"Duplicate response identifier 2nd instance",Enterprise Suite,APAC,Enterprise
+OK-001,2026-09-07,10,5,"Completely valid record for comparison",Enterprise Suite,North America,Enterprise

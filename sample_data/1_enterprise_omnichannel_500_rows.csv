@@ -1,0 +1,501 @@
+response_id,date,nps_score,csat_score,comment,product,region,customer_type
+RESP-0001,2026-08-01,9,5,"Customer support resolved our integration ticket in under 20 minutes.",Mobile App,EMEA,Mid-Market
+RESP-0002,2026-08-02,8,4,"Overall solid platform, but loading large datasets over 100k rows can be sluggish.",Analytics Cloud,APAC,SMB
+RESP-0003,2026-08-03,4,2,"Mobile app crashes every time I export a dashboard to PDF. Very frustrating.",Billing Portal,LATAM,Startup
+RESP-0004,2026-08-04,2,1,"Unexpected invoice charges and no itemized breakdown. Still waiting 4 days for a response.",Enterprise Suite,North America,Enterprise
+RESP-0005,2026-08-05,10,5,"Automated insights pinpointed our regional drop before our quarterly review.",Mobile App,EMEA,Mid-Market
+RESP-0006,2026-08-06,3,2,"Documentation for the REST API is outdated and code samples contain broken syntax.",Analytics Cloud,APAC,SMB
+RESP-0007,2026-08-07,7,4,"Works well for day-to-day tracking, minor UI stutter when switching workspaces.",Billing Portal,LATAM,Startup
+RESP-0008,2026-08-08,1,1,"Downtime during month-end close caused major delays across our finance division.",Enterprise Suite,North America,Enterprise
+RESP-0009,2026-08-09,9,5,"Phenomenal workflow efficiency and our account manager is exceptionally proactive.",Mobile App,EMEA,Mid-Market
+RESP-0010,2026-08-10,10,5,"The new dashboard layout makes segment tracking effortless for our team.",Analytics Cloud,APAC,SMB
+RESP-0011,2026-08-11,9,5,"Customer support resolved our integration ticket in under 20 minutes.",Billing Portal,LATAM,Startup
+RESP-0012,2026-08-12,8,4,"Overall solid platform, but loading large datasets over 100k rows can be sluggish.",Enterprise Suite,North America,Enterprise
+RESP-0013,2026-08-13,4,2,"Mobile app crashes every time I export a dashboard to PDF. Very frustrating.",Mobile App,EMEA,Mid-Market
+RESP-0014,2026-08-14,2,1,"Unexpected invoice charges and no itemized breakdown. Still waiting 4 days for a response.",Analytics Cloud,APAC,SMB
+RESP-0015,2026-08-15,10,5,"Automated insights pinpointed our regional drop before our quarterly review.",Billing Portal,LATAM,Startup
+RESP-0016,2026-08-16,3,2,"Documentation for the REST API is outdated and code samples contain broken syntax.",Enterprise Suite,North America,Enterprise
+RESP-0017,2026-08-17,7,4,"Works well for day-to-day tracking, minor UI stutter when switching workspaces.",Mobile App,EMEA,Mid-Market
+RESP-0018,2026-08-18,1,1,"Downtime during month-end close caused major delays across our finance division.",Analytics Cloud,APAC,SMB
+RESP-0019,2026-08-19,9,5,"Phenomenal workflow efficiency and our account manager is exceptionally proactive.",Billing Portal,LATAM,Startup
+RESP-0020,2026-08-20,10,5,"The new dashboard layout makes segment tracking effortless for our team.",Enterprise Suite,North America,Enterprise
+RESP-0021,2026-08-21,9,5,"Customer support resolved our integration ticket in under 20 minutes.",Mobile App,EMEA,Mid-Market
+RESP-0022,2026-08-22,8,4,"Overall solid platform, but loading large datasets over 100k rows can be sluggish.",Analytics Cloud,APAC,SMB
+RESP-0023,2026-08-23,4,2,"Mobile app crashes every time I export a dashboard to PDF. Very frustrating.",Billing Portal,LATAM,Startup
+RESP-0024,2026-08-24,2,1,"Unexpected invoice charges and no itemized breakdown. Still waiting 4 days for a response.",Enterprise Suite,North America,Enterprise
+RESP-0025,2026-08-25,10,5,"Automated insights pinpointed our regional drop before our quarterly review.",Mobile App,EMEA,Mid-Market
+RESP-0026,2026-08-26,3,2,"Documentation for the REST API is outdated and code samples contain broken syntax.",Analytics Cloud,APAC,SMB
+RESP-0027,2026-08-27,7,4,"Works well for day-to-day tracking, minor UI stutter when switching workspaces.",Billing Portal,LATAM,Startup
+RESP-0028,2026-08-28,1,1,"Downtime during month-end close caused major delays across our finance division.",Enterprise Suite,North America,Enterprise
+RESP-0029,2026-08-29,9,5,"Phenomenal workflow efficiency and our account manager is exceptionally proactive.",Mobile App,EMEA,Mid-Market
+RESP-0030,2026-08-30,10,5,"The new dashboard layout makes segment tracking effortless for our team.",Analytics Cloud,APAC,SMB
+RESP-0031,2026-08-31,9,5,"Customer support resolved our integration ticket in under 20 minutes.",Billing Portal,LATAM,Startup
+RESP-0032,2026-09-01,8,4,"Overall solid platform, but loading large datasets over 100k rows can be sluggish.",Enterprise Suite,North America,Enterprise
+RESP-0033,2026-09-02,4,2,"Mobile app crashes every time I export a dashboard to PDF. Very frustrating.",Mobile App,EMEA,Mid-Market
+RESP-0034,2026-09-03,2,1,"Unexpected invoice charges and no itemized breakdown. Still waiting 4 days for a response.",Analytics Cloud,APAC,SMB
+RESP-0035,2026-09-04,10,5,"Automated insights pinpointed our regional drop before our quarterly review.",Billing Portal,LATAM,Startup
+RESP-0036,2026-09-05,3,2,"Documentation for the REST API is outdated and code samples contain broken syntax.",Enterprise Suite,North America,Enterprise
+RESP-0037,2026-09-06,7,4,"Works well for day-to-day tracking, minor UI stutter when switching workspaces.",Mobile App,EMEA,Mid-Market
+RESP-0038,2026-09-07,1,1,"Downtime during month-end close caused major delays across our finance division.",Analytics Cloud,APAC,SMB
+RESP-0039,2026-09-08,9,5,"Phenomenal workflow efficiency and our account manager is exceptionally proactive.",Billing Portal,LATAM,Startup
+RESP-0040,2026-09-09,10,5,"The new dashboard layout makes segment tracking effortless for our team.",Enterprise Suite,North America,Enterprise
+RESP-0041,2026-09-10,9,5,"Customer support resolved our integration ticket in under 20 minutes.",Mobile App,EMEA,Mid-Market
+RESP-0042,2026-09-11,8,4,"Overall solid platform, but loading large datasets over 100k rows can be sluggish.",Analytics Cloud,APAC,SMB
+RESP-0043,2026-09-12,4,2,"Mobile app crashes every time I export a dashboard to PDF. Very frustrating.",Billing Portal,LATAM,Startup
+RESP-0044,2026-09-13,2,1,"Unexpected invoice charges and no itemized breakdown. Still waiting 4 days for a response.",Enterprise Suite,North America,Enterprise
+RESP-0045,2026-09-14,10,5,"Automated insights pinpointed our regional drop before our quarterly review.",Mobile App,EMEA,Mid-Market
+RESP-0046,2026-09-15,3,2,"Documentation for the REST API is outdated and code samples contain broken syntax.",Analytics Cloud,APAC,SMB
+RESP-0047,2026-09-16,7,4,"Works well for day-to-day tracking, minor UI stutter when switching workspaces.",Billing Portal,LATAM,Startup
+RESP-0048,2026-09-17,1,1,"Downtime during month-end close caused major delays across our finance division.",Enterprise Suite,North America,Enterprise
+RESP-0049,2026-09-18,9,5,"Phenomenal workflow efficiency and our account manager is exceptionally proactive.",Mobile App,EMEA,Mid-Market
+RESP-0050,2026-09-19,10,5,"The new dashboard layout makes segment tracking effortless for our team.",Analytics Cloud,APAC,SMB
+RESP-0051,2026-09-20,9,5,"Customer support resolved our integration ticket in under 20 minutes.",Billing Portal,LATAM,Startup
+RESP-0052,2026-09-21,8,4,"Overall solid platform, but loading large datasets over 100k rows can be sluggish.",Enterprise Suite,North America,Enterprise
+RESP-0053,2026-09-22,4,2,"Mobile app crashes every time I export a dashboard to PDF. Very frustrating.",Mobile App,EMEA,Mid-Market
+RESP-0054,2026-09-23,2,1,"Unexpected invoice charges and no itemized breakdown. Still waiting 4 days for a response.",Analytics Cloud,APAC,SMB
+RESP-0055,2026-09-24,10,5,"Automated insights pinpointed our regional drop before our quarterly review.",Billing Portal,LATAM,Startup
+RESP-0056,2026-09-25,3,2,"Documentation for the REST API is outdated and code samples contain broken syntax.",Enterprise Suite,North America,Enterprise
+RESP-0057,2026-09-26,7,4,"Works well for day-to-day tracking, minor UI stutter when switching workspaces.",Mobile App,EMEA,Mid-Market
+RESP-0058,2026-09-27,1,1,"Downtime during month-end close caused major delays across our finance division.",Analytics Cloud,APAC,SMB
+RESP-0059,2026-09-28,9,5,"Phenomenal workflow efficiency and our account manager is exceptionally proactive.",Billing Portal,LATAM,Startup
+RESP-0060,2026-09-29,10,5,"The new dashboard layout makes segment tracking effortless for our team.",Enterprise Suite,North America,Enterprise
+RESP-0061,2026-09-30,9,5,"Customer support resolved our integration ticket in under 20 minutes.",Mobile App,EMEA,Mid-Market
+RESP-0062,2026-10-01,8,4,"Overall solid platform, but loading large datasets over 100k rows can be sluggish.",Analytics Cloud,APAC,SMB
+RESP-0063,2026-10-02,4,2,"Mobile app crashes every time I export a dashboard to PDF. Very frustrating.",Billing Portal,LATAM,Startup
+RESP-0064,2026-10-03,2,1,"Unexpected invoice charges and no itemized breakdown. Still waiting 4 days for a response.",Enterprise Suite,North America,Enterprise
+RESP-0065,2026-10-04,10,5,"Automated insights pinpointed our regional drop before our quarterly review.",Mobile App,EMEA,Mid-Market
+RESP-0066,2026-10-05,3,2,"Documentation for the REST API is outdated and code samples contain broken syntax.",Analytics Cloud,APAC,SMB
+RESP-0067,2026-10-06,7,4,"Works well for day-to-day tracking, minor UI stutter when switching workspaces.",Billing Portal,LATAM,Startup
+RESP-0068,2026-10-07,1,1,"Downtime during month-end close caused major delays across our finance division.",Enterprise Suite,North America,Enterprise
+RESP-0069,2026-10-08,9,5,"Phenomenal workflow efficiency and our account manager is exceptionally proactive.",Mobile App,EMEA,Mid-Market
+RESP-0070,2026-10-09,10,5,"The new dashboard layout makes segment tracking effortless for our team.",Analytics Cloud,APAC,SMB
+RESP-0071,2026-10-10,9,5,"Customer support resolved our integration ticket in under 20 minutes.",Billing Portal,LATAM,Startup
+RESP-0072,2026-10-11,8,4,"Overall solid platform, but loading large datasets over 100k rows can be sluggish.",Enterprise Suite,North America,Enterprise
+RESP-0073,2026-10-12,4,2,"Mobile app crashes every time I export a dashboard to PDF. Very frustrating.",Mobile App,EMEA,Mid-Market
+RESP-0074,2026-10-13,2,1,"Unexpected invoice charges and no itemized breakdown. Still waiting 4 days for a response.",Analytics Cloud,APAC,SMB
+RESP-0075,2026-07-31,10,5,"Automated insights pinpointed our regional drop before our quarterly review.",Billing Portal,LATAM,Startup
+RESP-0076,2026-08-01,3,2,"Documentation for the REST API is outdated and code samples contain broken syntax.",Enterprise Suite,North America,Enterprise
+RESP-0077,2026-08-02,7,4,"Works well for day-to-day tracking, minor UI stutter when switching workspaces.",Mobile App,EMEA,Mid-Market
+RESP-0078,2026-08-03,1,1,"Downtime during month-end close caused major delays across our finance division.",Analytics Cloud,APAC,SMB
+RESP-0079,2026-08-04,9,5,"Phenomenal workflow efficiency and our account manager is exceptionally proactive.",Billing Portal,LATAM,Startup
+RESP-0080,2026-08-05,10,5,"The new dashboard layout makes segment tracking effortless for our team.",Enterprise Suite,North America,Enterprise
+RESP-0081,2026-08-06,9,5,"Customer support resolved our integration ticket in under 20 minutes.",Mobile App,EMEA,Mid-Market
+RESP-0082,2026-08-07,8,4,"Overall solid platform, but loading large datasets over 100k rows can be sluggish.",Analytics Cloud,APAC,SMB
+RESP-0083,2026-08-08,4,2,"Mobile app crashes every time I export a dashboard to PDF. Very frustrating.",Billing Portal,LATAM,Startup
+RESP-0084,2026-08-09,2,1,"Unexpected invoice charges and no itemized breakdown. Still waiting 4 days for a response.",Enterprise Suite,North America,Enterprise
+RESP-0085,2026-08-10,10,5,"Automated insights pinpointed our regional drop before our quarterly review.",Mobile App,EMEA,Mid-Market
+RESP-0086,2026-08-11,3,2,"Documentation for the REST API is outdated and code samples contain broken syntax.",Analytics Cloud,APAC,SMB
+RESP-0087,2026-08-12,7,4,"Works well for day-to-day tracking, minor UI stutter when switching workspaces.",Billing Portal,LATAM,Startup
+RESP-0088,2026-08-13,1,1,"Downtime during month-end close caused major delays across our finance division.",Enterprise Suite,North America,Enterprise
+RESP-0089,2026-08-14,9,5,"Phenomenal workflow efficiency and our account manager is exceptionally proactive.",Mobile App,EMEA,Mid-Market
+RESP-0090,2026-08-15,10,5,"The new dashboard layout makes segment tracking effortless for our team.",Analytics Cloud,APAC,SMB
+RESP-0091,2026-08-16,9,5,"Customer support resolved our integration ticket in under 20 minutes.",Billing Portal,LATAM,Startup
+RESP-0092,2026-08-17,8,4,"Overall solid platform, but loading large datasets over 100k rows can be sluggish.",Enterprise Suite,North America,Enterprise
+RESP-0093,2026-08-18,4,2,"Mobile app crashes every time I export a dashboard to PDF. Very frustrating.",Mobile App,EMEA,Mid-Market
+RESP-0094,2026-08-19,2,1,"Unexpected invoice charges and no itemized breakdown. Still waiting 4 days for a response.",Analytics Cloud,APAC,SMB
+RESP-0095,2026-08-20,10,5,"Automated insights pinpointed our regional drop before our quarterly review.",Billing Portal,LATAM,Startup
+RESP-0096,2026-08-21,3,2,"Documentation for the REST API is outdated and code samples contain broken syntax.",Enterprise Suite,North America,Enterprise
+RESP-0097,2026-08-22,7,4,"Works well for day-to-day tracking, minor UI stutter when switching workspaces.",Mobile App,EMEA,Mid-Market
+RESP-0098,2026-08-23,1,1,"Downtime during month-end close caused major delays across our finance division.",Analytics Cloud,APAC,SMB
+RESP-0099,2026-08-24,9,5,"Phenomenal workflow efficiency and our account manager is exceptionally proactive.",Billing Portal,LATAM,Startup
+RESP-0100,2026-08-25,10,5,"The new dashboard layout makes segment tracking effortless for our team.",Enterprise Suite,North America,Enterprise
+RESP-0101,2026-08-26,9,5,"Customer support resolved our integration ticket in under 20 minutes.",Mobile App,EMEA,Mid-Market
+RESP-0102,2026-08-27,8,4,"Overall solid platform, but loading large datasets over 100k rows can be sluggish.",Analytics Cloud,APAC,SMB
+RESP-0103,2026-08-28,4,2,"Mobile app crashes every time I export a dashboard to PDF. Very frustrating.",Billing Portal,LATAM,Startup
+RESP-0104,2026-08-29,2,1,"Unexpected invoice charges and no itemized breakdown. Still waiting 4 days for a response.",Enterprise Suite,North America,Enterprise
+RESP-0105,2026-08-30,10,5,"Automated insights pinpointed our regional drop before our quarterly review.",Mobile App,EMEA,Mid-Market
+RESP-0106,2026-08-31,3,2,"Documentation for the REST API is outdated and code samples contain broken syntax.",Analytics Cloud,APAC,SMB
+RESP-0107,2026-09-01,7,4,"Works well for day-to-day tracking, minor UI stutter when switching workspaces.",Billing Portal,LATAM,Startup
+RESP-0108,2026-09-02,1,1,"Downtime during month-end close caused major delays across our finance division.",Enterprise Suite,North America,Enterprise
+RESP-0109,2026-09-03,9,5,"Phenomenal workflow efficiency and our account manager is exceptionally proactive.",Mobile App,EMEA,Mid-Market
+RESP-0110,2026-09-04,10,5,"The new dashboard layout makes segment tracking effortless for our team.",Analytics Cloud,APAC,SMB
+RESP-0111,2026-09-05,9,5,"Customer support resolved our integration ticket in under 20 minutes.",Billing Portal,LATAM,Startup
+RESP-0112,2026-09-06,8,4,"Overall solid platform, but loading large datasets over 100k rows can be sluggish.",Enterprise Suite,North America,Enterprise
+RESP-0113,2026-09-07,4,2,"Mobile app crashes every time I export a dashboard to PDF. Very frustrating.",Mobile App,EMEA,Mid-Market
+RESP-0114,2026-09-08,2,1,"Unexpected invoice charges and no itemized breakdown. Still waiting 4 days for a response.",Analytics Cloud,APAC,SMB
+RESP-0115,2026-09-09,10,5,"Automated insights pinpointed our regional drop before our quarterly review.",Billing Portal,LATAM,Startup
+RESP-0116,2026-09-10,3,2,"Documentation for the REST API is outdated and code samples contain broken syntax.",Enterprise Suite,North America,Enterprise
+RESP-0117,2026-09-11,7,4,"Works well for day-to-day tracking, minor UI stutter when switching workspaces.",Mobile App,EMEA,Mid-Market
+RESP-0118,2026-09-12,1,1,"Downtime during month-end close caused major delays across our finance division.",Analytics Cloud,APAC,SMB
+RESP-0119,2026-09-13,9,5,"Phenomenal workflow efficiency and our account manager is exceptionally proactive.",Billing Portal,LATAM,Startup
+RESP-0120,2026-09-14,10,5,"The new dashboard layout makes segment tracking effortless for our team.",Enterprise Suite,North America,Enterprise
+RESP-0121,2026-09-15,9,5,"Customer support resolved our integration ticket in under 20 minutes.",Mobile App,EMEA,Mid-Market
+RESP-0122,2026-09-16,8,4,"Overall solid platform, but loading large datasets over 100k rows can be sluggish.",Analytics Cloud,APAC,SMB
+RESP-0123,2026-09-17,4,2,"Mobile app crashes every time I export a dashboard to PDF. Very frustrating.",Billing Portal,LATAM,Startup
+RESP-0124,2026-09-18,2,1,"Unexpected invoice charges and no itemized breakdown. Still waiting 4 days for a response.",Enterprise Suite,North America,Enterprise
+RESP-0125,2026-09-19,10,5,"Automated insights pinpointed our regional drop before our quarterly review.",Mobile App,EMEA,Mid-Market
+RESP-0126,2026-09-20,3,2,"Documentation for the REST API is outdated and code samples contain broken syntax.",Analytics Cloud,APAC,SMB
+RESP-0127,2026-09-21,7,4,"Works well for day-to-day tracking, minor UI stutter when switching workspaces.",Billing Portal,LATAM,Startup
+RESP-0128,2026-09-22,1,1,"Downtime during month-end close caused major delays across our finance division.",Enterprise Suite,North America,Enterprise
+RESP-0129,2026-09-23,9,5,"Phenomenal workflow efficiency and our account manager is exceptionally proactive.",Mobile App,EMEA,Mid-Market
+RESP-0130,2026-09-24,10,5,"The new dashboard layout makes segment tracking effortless for our team.",Analytics Cloud,APAC,SMB
+RESP-0131,2026-09-25,9,5,"Customer support resolved our integration ticket in under 20 minutes.",Billing Portal,LATAM,Startup
+RESP-0132,2026-09-26,8,4,"Overall solid platform, but loading large datasets over 100k rows can be sluggish.",Enterprise Suite,North America,Enterprise
+RESP-0133,2026-09-27,4,2,"Mobile app crashes every time I export a dashboard to PDF. Very frustrating.",Mobile App,EMEA,Mid-Market
+RESP-0134,2026-09-28,2,1,"Unexpected invoice charges and no itemized breakdown. Still waiting 4 days for a response.",Analytics Cloud,APAC,SMB
+RESP-0135,2026-09-29,10,5,"Automated insights pinpointed our regional drop before our quarterly review.",Billing Portal,LATAM,Startup
+RESP-0136,2026-09-30,3,2,"Documentation for the REST API is outdated and code samples contain broken syntax.",Enterprise Suite,North America,Enterprise
+RESP-0137,2026-10-01,7,4,"Works well for day-to-day tracking, minor UI stutter when switching workspaces.",Mobile App,EMEA,Mid-Market
+RESP-0138,2026-10-02,1,1,"Downtime during month-end close caused major delays across our finance division.",Analytics Cloud,APAC,SMB
+RESP-0139,2026-10-03,9,5,"Phenomenal workflow efficiency and our account manager is exceptionally proactive.",Billing Portal,LATAM,Startup
+RESP-0140,2026-10-04,10,5,"The new dashboard layout makes segment tracking effortless for our team.",Enterprise Suite,North America,Enterprise
+RESP-0141,2026-10-05,9,5,"Customer support resolved our integration ticket in under 20 minutes.",Mobile App,EMEA,Mid-Market
+RESP-0142,2026-10-06,8,4,"Overall solid platform, but loading large datasets over 100k rows can be sluggish.",Analytics Cloud,APAC,SMB
+RESP-0143,2026-10-07,4,2,"Mobile app crashes every time I export a dashboard to PDF. Very frustrating.",Billing Portal,LATAM,Startup
+RESP-0144,2026-10-08,2,1,"Unexpected invoice charges and no itemized breakdown. Still waiting 4 days for a response.",Enterprise Suite,North America,Enterprise
+RESP-0145,2026-10-09,10,5,"Automated insights pinpointed our regional drop before our quarterly review.",Mobile App,EMEA,Mid-Market
+RESP-0146,2026-10-10,3,2,"Documentation for the REST API is outdated and code samples contain broken syntax.",Analytics Cloud,APAC,SMB
+RESP-0147,2026-10-11,7,4,"Works well for day-to-day tracking, minor UI stutter when switching workspaces.",Billing Portal,LATAM,Startup
+RESP-0148,2026-10-12,1,1,"Downtime during month-end close caused major delays across our finance division.",Enterprise Suite,North America,Enterprise
+RESP-0149,2026-10-13,9,5,"Phenomenal workflow efficiency and our account manager is exceptionally proactive.",Mobile App,EMEA,Mid-Market
+RESP-0150,2026-07-31,10,5,"The new dashboard layout makes segment tracking effortless for our team.",Analytics Cloud,APAC,SMB
+RESP-0151,2026-08-01,9,5,"Customer support resolved our integration ticket in under 20 minutes.",Billing Portal,LATAM,Startup
+RESP-0152,2026-08-02,8,4,"Overall solid platform, but loading large datasets over 100k rows can be sluggish.",Enterprise Suite,North America,Enterprise
+RESP-0153,2026-08-03,4,2,"Mobile app crashes every time I export a dashboard to PDF. Very frustrating.",Mobile App,EMEA,Mid-Market
+RESP-0154,2026-08-04,2,1,"Unexpected invoice charges and no itemized breakdown. Still waiting 4 days for a response.",Analytics Cloud,APAC,SMB
+RESP-0155,2026-08-05,10,5,"Automated insights pinpointed our regional drop before our quarterly review.",Billing Portal,LATAM,Startup
+RESP-0156,2026-08-06,3,2,"Documentation for the REST API is outdated and code samples contain broken syntax.",Enterprise Suite,North America,Enterprise
+RESP-0157,2026-08-07,7,4,"Works well for day-to-day tracking, minor UI stutter when switching workspaces.",Mobile App,EMEA,Mid-Market
+RESP-0158,2026-08-08,1,1,"Downtime during month-end close caused major delays across our finance division.",Analytics Cloud,APAC,SMB
+RESP-0159,2026-08-09,9,5,"Phenomenal workflow efficiency and our account manager is exceptionally proactive.",Billing Portal,LATAM,Startup
+RESP-0160,2026-08-10,10,5,"The new dashboard layout makes segment tracking effortless for our team.",Enterprise Suite,North America,Enterprise
+RESP-0161,2026-08-11,9,5,"Customer support resolved our integration ticket in under 20 minutes.",Mobile App,EMEA,Mid-Market
+RESP-0162,2026-08-12,8,4,"Overall solid platform, but loading large datasets over 100k rows can be sluggish.",Analytics Cloud,APAC,SMB
+RESP-0163,2026-08-13,4,2,"Mobile app crashes every time I export a dashboard to PDF. Very frustrating.",Billing Portal,LATAM,Startup
+RESP-0164,2026-08-14,2,1,"Unexpected invoice charges and no itemized breakdown. Still waiting 4 days for a response.",Enterprise Suite,North America,Enterprise
+RESP-0165,2026-08-15,10,5,"Automated insights pinpointed our regional drop before our quarterly review.",Mobile App,EMEA,Mid-Market
+RESP-0166,2026-08-16,3,2,"Documentation for the REST API is outdated and code samples contain broken syntax.",Analytics Cloud,APAC,SMB
+RESP-0167,2026-08-17,7,4,"Works well for day-to-day tracking, minor UI stutter when switching workspaces.",Billing Portal,LATAM,Startup
+RESP-0168,2026-08-18,1,1,"Downtime during month-end close caused major delays across our finance division.",Enterprise Suite,North America,Enterprise
+RESP-0169,2026-08-19,9,5,"Phenomenal workflow efficiency and our account manager is exceptionally proactive.",Mobile App,EMEA,Mid-Market
+RESP-0170,2026-08-20,10,5,"The new dashboard layout makes segment tracking effortless for our team.",Analytics Cloud,APAC,SMB
+RESP-0171,2026-08-21,9,5,"Customer support resolved our integration ticket in under 20 minutes.",Billing Portal,LATAM,Startup
+RESP-0172,2026-08-22,8,4,"Overall solid platform, but loading large datasets over 100k rows can be sluggish.",Enterprise Suite,North America,Enterprise
+RESP-0173,2026-08-23,4,2,"Mobile app crashes every time I export a dashboard to PDF. Very frustrating.",Mobile App,EMEA,Mid-Market
+RESP-0174,2026-08-24,2,1,"Unexpected invoice charges and no itemized breakdown. Still waiting 4 days for a response.",Analytics Cloud,APAC,SMB
+RESP-0175,2026-08-25,10,5,"Automated insights pinpointed our regional drop before our quarterly review.",Billing Portal,LATAM,Startup
+RESP-0176,2026-08-26,3,2,"Documentation for the REST API is outdated and code samples contain broken syntax.",Enterprise Suite,North America,Enterprise
+RESP-0177,2026-08-27,7,4,"Works well for day-to-day tracking, minor UI stutter when switching workspaces.",Mobile App,EMEA,Mid-Market
+RESP-0178,2026-08-28,1,1,"Downtime during month-end close caused major delays across our finance division.",Analytics Cloud,APAC,SMB
+RESP-0179,2026-08-29,9,5,"Phenomenal workflow efficiency and our account manager is exceptionally proactive.",Billing Portal,LATAM,Startup
+RESP-0180,2026-08-30,10,5,"The new dashboard layout makes segment tracking effortless for our team.",Enterprise Suite,North America,Enterprise
+RESP-0181,2026-08-31,9,5,"Customer support resolved our integration ticket in under 20 minutes.",Mobile App,EMEA,Mid-Market
+RESP-0182,2026-09-01,8,4,"Overall solid platform, but loading large datasets over 100k rows can be sluggish.",Analytics Cloud,APAC,SMB
+RESP-0183,2026-09-02,4,2,"Mobile app crashes every time I export a dashboard to PDF. Very frustrating.",Billing Portal,LATAM,Startup
+RESP-0184,2026-09-03,2,1,"Unexpected invoice charges and no itemized breakdown. Still waiting 4 days for a response.",Enterprise Suite,North America,Enterprise
+RESP-0185,2026-09-04,10,5,"Automated insights pinpointed our regional drop before our quarterly review.",Mobile App,EMEA,Mid-Market
+RESP-0186,2026-09-05,3,2,"Documentation for the REST API is outdated and code samples contain broken syntax.",Analytics Cloud,APAC,SMB
+RESP-0187,2026-09-06,7,4,"Works well for day-to-day tracking, minor UI stutter when switching workspaces.",Billing Portal,LATAM,Startup
+RESP-0188,2026-09-07,1,1,"Downtime during month-end close caused major delays across our finance division.",Enterprise Suite,North America,Enterprise
+RESP-0189,2026-09-08,9,5,"Phenomenal workflow efficiency and our account manager is exceptionally proactive.",Mobile App,EMEA,Mid-Market
+RESP-0190,2026-09-09,10,5,"The new dashboard layout makes segment tracking effortless for our team.",Analytics Cloud,APAC,SMB
+RESP-0191,2026-09-10,9,5,"Customer support resolved our integration ticket in under 20 minutes.",Billing Portal,LATAM,Startup
+RESP-0192,2026-09-11,8,4,"Overall solid platform, but loading large datasets over 100k rows can be sluggish.",Enterprise Suite,North America,Enterprise
+RESP-0193,2026-09-12,4,2,"Mobile app crashes every time I export a dashboard to PDF. Very frustrating.",Mobile App,EMEA,Mid-Market
+RESP-0194,2026-09-13,2,1,"Unexpected invoice charges and no itemized breakdown. Still waiting 4 days for a response.",Analytics Cloud,APAC,SMB
+RESP-0195,2026-09-14,10,5,"Automated insights pinpointed our regional drop before our quarterly review.",Billing Portal,LATAM,Startup
+RESP-0196,2026-09-15,3,2,"Documentation for the REST API is outdated and code samples contain broken syntax.",Enterprise Suite,North America,Enterprise
+RESP-0197,2026-09-16,7,4,"Works well for day-to-day tracking, minor UI stutter when switching workspaces.",Mobile App,EMEA,Mid-Market
+RESP-0198,2026-09-17,1,1,"Downtime during month-end close caused major delays across our finance division.",Analytics Cloud,APAC,SMB
+RESP-0199,2026-09-18,9,5,"Phenomenal workflow efficiency and our account manager is exceptionally proactive.",Billing Portal,LATAM,Startup
+RESP-0200,2026-09-19,10,5,"The new dashboard layout makes segment tracking effortless for our team.",Enterprise Suite,North America,Enterprise
+RESP-0201,2026-09-20,9,5,"Customer support resolved our integration ticket in under 20 minutes.",Mobile App,EMEA,Mid-Market
+RESP-0202,2026-09-21,8,4,"Overall solid platform, but loading large datasets over 100k rows can be sluggish.",Analytics Cloud,APAC,SMB
+RESP-0203,2026-09-22,4,2,"Mobile app crashes every time I export a dashboard to PDF. Very frustrating.",Billing Portal,LATAM,Startup
+RESP-0204,2026-09-23,2,1,"Unexpected invoice charges and no itemized breakdown. Still waiting 4 days for a response.",Enterprise Suite,North America,Enterprise
+RESP-0205,2026-09-24,10,5,"Automated insights pinpointed our regional drop before our quarterly review.",Mobile App,EMEA,Mid-Market
+RESP-0206,2026-09-25,3,2,"Documentation for the REST API is outdated and code samples contain broken syntax.",Analytics Cloud,APAC,SMB
+RESP-0207,2026-09-26,7,4,"Works well for day-to-day tracking, minor UI stutter when switching workspaces.",Billing Portal,LATAM,Startup
+RESP-0208,2026-09-27,1,1,"Downtime during month-end close caused major delays across our finance division.",Enterprise Suite,North America,Enterprise
+RESP-0209,2026-09-28,9,5,"Phenomenal workflow efficiency and our account manager is exceptionally proactive.",Mobile App,EMEA,Mid-Market
+RESP-0210,2026-09-29,10,5,"The new dashboard layout makes segment tracking effortless for our team.",Analytics Cloud,APAC,SMB
+RESP-0211,2026-09-30,9,5,"Customer support resolved our integration ticket in under 20 minutes.",Billing Portal,LATAM,Startup
+RESP-0212,2026-10-01,8,4,"Overall solid platform, but loading large datasets over 100k rows can be sluggish.",Enterprise Suite,North America,Enterprise
+RESP-0213,2026-10-02,4,2,"Mobile app crashes every time I export a dashboard to PDF. Very frustrating.",Mobile App,EMEA,Mid-Market
+RESP-0214,2026-10-03,2,1,"Unexpected invoice charges and no itemized breakdown. Still waiting 4 days for a response.",Analytics Cloud,APAC,SMB
+RESP-0215,2026-10-04,10,5,"Automated insights pinpointed our regional drop before our quarterly review.",Billing Portal,LATAM,Startup
+RESP-0216,2026-10-05,3,2,"Documentation for the REST API is outdated and code samples contain broken syntax.",Enterprise Suite,North America,Enterprise
+RESP-0217,2026-10-06,7,4,"Works well for day-to-day tracking, minor UI stutter when switching workspaces.",Mobile App,EMEA,Mid-Market
+RESP-0218,2026-10-07,1,1,"Downtime during month-end close caused major delays across our finance division.",Analytics Cloud,APAC,SMB
+RESP-0219,2026-10-08,9,5,"Phenomenal workflow efficiency and our account manager is exceptionally proactive.",Billing Portal,LATAM,Startup
+RESP-0220,2026-10-09,10,5,"The new dashboard layout makes segment tracking effortless for our team.",Enterprise Suite,North America,Enterprise
+RESP-0221,2026-10-10,9,5,"Customer support resolved our integration ticket in under 20 minutes.",Mobile App,EMEA,Mid-Market
+RESP-0222,2026-10-11,8,4,"Overall solid platform, but loading large datasets over 100k rows can be sluggish.",Analytics Cloud,APAC,SMB
+RESP-0223,2026-10-12,4,2,"Mobile app crashes every time I export a dashboard to PDF. Very frustrating.",Billing Portal,LATAM,Startup
+RESP-0224,2026-10-13,2,1,"Unexpected invoice charges and no itemized breakdown. Still waiting 4 days for a response.",Enterprise Suite,North America,Enterprise
+RESP-0225,2026-07-31,10,5,"Automated insights pinpointed our regional drop before our quarterly review.",Mobile App,EMEA,Mid-Market
+RESP-0226,2026-08-01,3,2,"Documentation for the REST API is outdated and code samples contain broken syntax.",Analytics Cloud,APAC,SMB
+RESP-0227,2026-08-02,7,4,"Works well for day-to-day tracking, minor UI stutter when switching workspaces.",Billing Portal,LATAM,Startup
+RESP-0228,2026-08-03,1,1,"Downtime during month-end close caused major delays across our finance division.",Enterprise Suite,North America,Enterprise
+RESP-0229,2026-08-04,9,5,"Phenomenal workflow efficiency and our account manager is exceptionally proactive.",Mobile App,EMEA,Mid-Market
+RESP-0230,2026-08-05,10,5,"The new dashboard layout makes segment tracking effortless for our team.",Analytics Cloud,APAC,SMB
+RESP-0231,2026-08-06,9,5,"Customer support resolved our integration ticket in under 20 minutes.",Billing Portal,LATAM,Startup
+RESP-0232,2026-08-07,8,4,"Overall solid platform, but loading large datasets over 100k rows can be sluggish.",Enterprise Suite,North America,Enterprise
+RESP-0233,2026-08-08,4,2,"Mobile app crashes every time I export a dashboard to PDF. Very frustrating.",Mobile App,EMEA,Mid-Market
+RESP-0234,2026-08-09,2,1,"Unexpected invoice charges and no itemized breakdown. Still waiting 4 days for a response.",Analytics Cloud,APAC,SMB
+RESP-0235,2026-08-10,10,5,"Automated insights pinpointed our regional drop before our quarterly review.",Billing Portal,LATAM,Startup
+RESP-0236,2026-08-11,3,2,"Documentation for the REST API is outdated and code samples contain broken syntax.",Enterprise Suite,North America,Enterprise
+RESP-0237,2026-08-12,7,4,"Works well for day-to-day tracking, minor UI stutter when switching workspaces.",Mobile App,EMEA,Mid-Market
+RESP-0238,2026-08-13,1,1,"Downtime during month-end close caused major delays across our finance division.",Analytics Cloud,APAC,SMB
+RESP-0239,2026-08-14,9,5,"Phenomenal workflow efficiency and our account manager is exceptionally proactive.",Billing Portal,LATAM,Startup
+RESP-0240,2026-08-15,10,5,"The new dashboard layout makes segment tracking effortless for our team.",Enterprise Suite,North America,Enterprise
+RESP-0241,2026-08-16,9,5,"Customer support resolved our integration ticket in under 20 minutes.",Mobile App,EMEA,Mid-Market
+RESP-0242,2026-08-17,8,4,"Overall solid platform, but loading large datasets over 100k rows can be sluggish.",Analytics Cloud,APAC,SMB
+RESP-0243,2026-08-18,4,2,"Mobile app crashes every time I export a dashboard to PDF. Very frustrating.",Billing Portal,LATAM,Startup
+RESP-0244,2026-08-19,2,1,"Unexpected invoice charges and no itemized breakdown. Still waiting 4 days for a response.",Enterprise Suite,North America,Enterprise
+RESP-0245,2026-08-20,10,5,"Automated insights pinpointed our regional drop before our quarterly review.",Mobile App,EMEA,Mid-Market
+RESP-0246,2026-08-21,3,2,"Documentation for the REST API is outdated and code samples contain broken syntax.",Analytics Cloud,APAC,SMB
+RESP-0247,2026-08-22,7,4,"Works well for day-to-day tracking, minor UI stutter when switching workspaces.",Billing Portal,LATAM,Startup
+RESP-0248,2026-08-23,1,1,"Downtime during month-end close caused major delays across our finance division.",Enterprise Suite,North America,Enterprise
+RESP-0249,2026-08-24,9,5,"Phenomenal workflow efficiency and our account manager is exceptionally proactive.",Mobile App,EMEA,Mid-Market
+RESP-0250,2026-08-25,10,5,"The new dashboard layout makes segment tracking effortless for our team.",Analytics Cloud,APAC,SMB
+RESP-0251,2026-08-26,9,5,"Customer support resolved our integration ticket in under 20 minutes.",Billing Portal,LATAM,Startup
+RESP-0252,2026-08-27,8,4,"Overall solid platform, but loading large datasets over 100k rows can be sluggish.",Enterprise Suite,North America,Enterprise
+RESP-0253,2026-08-28,4,2,"Mobile app crashes every time I export a dashboard to PDF. Very frustrating.",Mobile App,EMEA,Mid-Market
+RESP-0254,2026-08-29,2,1,"Unexpected invoice charges and no itemized breakdown. Still waiting 4 days for a response.",Analytics Cloud,APAC,SMB
+RESP-0255,2026-08-30,10,5,"Automated insights pinpointed our regional drop before our quarterly review.",Billing Portal,LATAM,Startup
+RESP-0256,2026-08-31,3,2,"Documentation for the REST API is outdated and code samples contain broken syntax.",Enterprise Suite,North America,Enterprise
+RESP-0257,2026-09-01,7,4,"Works well for day-to-day tracking, minor UI stutter when switching workspaces.",Mobile App,EMEA,Mid-Market
+RESP-0258,2026-09-02,1,1,"Downtime during month-end close caused major delays across our finance division.",Analytics Cloud,APAC,SMB
+RESP-0259,2026-09-03,9,5,"Phenomenal workflow efficiency and our account manager is exceptionally proactive.",Billing Portal,LATAM,Startup
+RESP-0260,2026-09-04,10,5,"The new dashboard layout makes segment tracking effortless for our team.",Enterprise Suite,North America,Enterprise
+RESP-0261,2026-09-05,9,5,"Customer support resolved our integration ticket in under 20 minutes.",Mobile App,EMEA,Mid-Market
+RESP-0262,2026-09-06,8,4,"Overall solid platform, but loading large datasets over 100k rows can be sluggish.",Analytics Cloud,APAC,SMB
+RESP-0263,2026-09-07,4,2,"Mobile app crashes every time I export a dashboard to PDF. Very frustrating.",Billing Portal,LATAM,Startup
+RESP-0264,2026-09-08,2,1,"Unexpected invoice charges and no itemized breakdown. Still waiting 4 days for a response.",Enterprise Suite,North America,Enterprise
+RESP-0265,2026-09-09,10,5,"Automated insights pinpointed our regional drop before our quarterly review.",Mobile App,EMEA,Mid-Market
+RESP-0266,2026-09-10,3,2,"Documentation for the REST API is outdated and code samples contain broken syntax.",Analytics Cloud,APAC,SMB
+RESP-0267,2026-09-11,7,4,"Works well for day-to-day tracking, minor UI stutter when switching workspaces.",Billing Portal,LATAM,Startup
+RESP-0268,2026-09-12,1,1,"Downtime during month-end close caused major delays across our finance division.",Enterprise Suite,North America,Enterprise
+RESP-0269,2026-09-13,9,5,"Phenomenal workflow efficiency and our account manager is exceptionally proactive.",Mobile App,EMEA,Mid-Market
+RESP-0270,2026-09-14,10,5,"The new dashboard layout makes segment tracking effortless for our team.",Analytics Cloud,APAC,SMB
+RESP-0271,2026-09-15,9,5,"Customer support resolved our integration ticket in under 20 minutes.",Billing Portal,LATAM,Startup
+RESP-0272,2026-09-16,8,4,"Overall solid platform, but loading large datasets over 100k rows can be sluggish.",Enterprise Suite,North America,Enterprise
+RESP-0273,2026-09-17,4,2,"Mobile app crashes every time I export a dashboard to PDF. Very frustrating.",Mobile App,EMEA,Mid-Market
+RESP-0274,2026-09-18,2,1,"Unexpected invoice charges and no itemized breakdown. Still waiting 4 days for a response.",Analytics Cloud,APAC,SMB
+RESP-0275,2026-09-19,10,5,"Automated insights pinpointed our regional drop before our quarterly review.",Billing Portal,LATAM,Startup
+RESP-0276,2026-09-20,3,2,"Documentation for the REST API is outdated and code samples contain broken syntax.",Enterprise Suite,North America,Enterprise
+RESP-0277,2026-09-21,7,4,"Works well for day-to-day tracking, minor UI stutter when switching workspaces.",Mobile App,EMEA,Mid-Market
+RESP-0278,2026-09-22,1,1,"Downtime during month-end close caused major delays across our finance division.",Analytics Cloud,APAC,SMB
+RESP-0279,2026-09-23,9,5,"Phenomenal workflow efficiency and our account manager is exceptionally proactive.",Billing Portal,LATAM,Startup
+RESP-0280,2026-09-24,10,5,"The new dashboard layout makes segment tracking effortless for our team.",Enterprise Suite,North America,Enterprise
+RESP-0281,2026-09-25,9,5,"Customer support resolved our integration ticket in under 20 minutes.",Mobile App,EMEA,Mid-Market
+RESP-0282,2026-09-26,8,4,"Overall solid platform, but loading large datasets over 100k rows can be sluggish.",Analytics Cloud,APAC,SMB
+RESP-0283,2026-09-27,4,2,"Mobile app crashes every time I export a dashboard to PDF. Very frustrating.",Billing Portal,LATAM,Startup
+RESP-0284,2026-09-28,2,1,"Unexpected invoice charges and no itemized breakdown. Still waiting 4 days for a response.",Enterprise Suite,North America,Enterprise
+RESP-0285,2026-09-29,10,5,"Automated insights pinpointed our regional drop before our quarterly review.",Mobile App,EMEA,Mid-Market
+RESP-0286,2026-09-30,3,2,"Documentation for the REST API is outdated and code samples contain broken syntax.",Analytics Cloud,APAC,SMB
+RESP-0287,2026-10-01,7,4,"Works well for day-to-day tracking, minor UI stutter when switching workspaces.",Billing Portal,LATAM,Startup
+RESP-0288,2026-10-02,1,1,"Downtime during month-end close caused major delays across our finance division.",Enterprise Suite,North America,Enterprise
+RESP-0289,2026-10-03,9,5,"Phenomenal workflow efficiency and our account manager is exceptionally proactive.",Mobile App,EMEA,Mid-Market
+RESP-0290,2026-10-04,10,5,"The new dashboard layout makes segment tracking effortless for our team.",Analytics Cloud,APAC,SMB
+RESP-0291,2026-10-05,9,5,"Customer support resolved our integration ticket in under 20 minutes.",Billing Portal,LATAM,Startup
+RESP-0292,2026-10-06,8,4,"Overall solid platform, but loading large datasets over 100k rows can be sluggish.",Enterprise Suite,North America,Enterprise
+RESP-0293,2026-10-07,4,2,"Mobile app crashes every time I export a dashboard to PDF. Very frustrating.",Mobile App,EMEA,Mid-Market
+RESP-0294,2026-10-08,2,1,"Unexpected invoice charges and no itemized breakdown. Still waiting 4 days for a response.",Analytics Cloud,APAC,SMB
+RESP-0295,2026-10-09,10,5,"Automated insights pinpointed our regional drop before our quarterly review.",Billing Portal,LATAM,Startup
+RESP-0296,2026-10-10,3,2,"Documentation for the REST API is outdated and code samples contain broken syntax.",Enterprise Suite,North America,Enterprise
+RESP-0297,2026-10-11,7,4,"Works well for day-to-day tracking, minor UI stutter when switching workspaces.",Mobile App,EMEA,Mid-Market
+RESP-0298,2026-10-12,1,1,"Downtime during month-end close caused major delays across our finance division.",Analytics Cloud,APAC,SMB
+RESP-0299,2026-10-13,9,5,"Phenomenal workflow efficiency and our account manager is exceptionally proactive.",Billing Portal,LATAM,Startup
+RESP-0300,2026-07-31,10,5,"The new dashboard layout makes segment tracking effortless for our team.",Enterprise Suite,North America,Enterprise
+RESP-0301,2026-08-01,9,5,"Customer support resolved our integration ticket in under 20 minutes.",Mobile App,EMEA,Mid-Market
+RESP-0302,2026-08-02,8,4,"Overall solid platform, but loading large datasets over 100k rows can be sluggish.",Analytics Cloud,APAC,SMB
+RESP-0303,2026-08-03,4,2,"Mobile app crashes every time I export a dashboard to PDF. Very frustrating.",Billing Portal,LATAM,Startup
+RESP-0304,2026-08-04,2,1,"Unexpected invoice charges and no itemized breakdown. Still waiting 4 days for a response.",Enterprise Suite,North America,Enterprise
+RESP-0305,2026-08-05,10,5,"Automated insights pinpointed our regional drop before our quarterly review.",Mobile App,EMEA,Mid-Market
+RESP-0306,2026-08-06,3,2,"Documentation for the REST API is outdated and code samples contain broken syntax.",Analytics Cloud,APAC,SMB
+RESP-0307,2026-08-07,7,4,"Works well for day-to-day tracking, minor UI stutter when switching workspaces.",Billing Portal,LATAM,Startup
+RESP-0308,2026-08-08,1,1,"Downtime during month-end close caused major delays across our finance division.",Enterprise Suite,North America,Enterprise
+RESP-0309,2026-08-09,9,5,"Phenomenal workflow efficiency and our account manager is exceptionally proactive.",Mobile App,EMEA,Mid-Market
+RESP-0310,2026-08-10,10,5,"The new dashboard layout makes segment tracking effortless for our team.",Analytics Cloud,APAC,SMB
+RESP-0311,2026-08-11,9,5,"Customer support resolved our integration ticket in under 20 minutes.",Billing Portal,LATAM,Startup
+RESP-0312,2026-08-12,8,4,"Overall solid platform, but loading large datasets over 100k rows can be sluggish.",Enterprise Suite,North America,Enterprise
+RESP-0313,2026-08-13,4,2,"Mobile app crashes every time I export a dashboard to PDF. Very frustrating.",Mobile App,EMEA,Mid-Market
+RESP-0314,2026-08-14,2,1,"Unexpected invoice charges and no itemized breakdown. Still waiting 4 days for a response.",Analytics Cloud,APAC,SMB
+RESP-0315,2026-08-15,10,5,"Automated insights pinpointed our regional drop before our quarterly review.",Billing Portal,LATAM,Startup
+RESP-0316,2026-08-16,3,2,"Documentation for the REST API is outdated and code samples contain broken syntax.",Enterprise Suite,North America,Enterprise
+RESP-0317,2026-08-17,7,4,"Works well for day-to-day tracking, minor UI stutter when switching workspaces.",Mobile App,EMEA,Mid-Market
+RESP-0318,2026-08-18,1,1,"Downtime during month-end close caused major delays across our finance division.",Analytics Cloud,APAC,SMB
+RESP-0319,2026-08-19,9,5,"Phenomenal workflow efficiency and our account manager is exceptionally proactive.",Billing Portal,LATAM,Startup
+RESP-0320,2026-08-20,10,5,"The new dashboard layout makes segment tracking effortless for our team.",Enterprise Suite,North America,Enterprise
+RESP-0321,2026-08-21,9,5,"Customer support resolved our integration ticket in under 20 minutes.",Mobile App,EMEA,Mid-Market
+RESP-0322,2026-08-22,8,4,"Overall solid platform, but loading large datasets over 100k rows can be sluggish.",Analytics Cloud,APAC,SMB
+RESP-0323,2026-08-23,4,2,"Mobile app crashes every time I export a dashboard to PDF. Very frustrating.",Billing Portal,LATAM,Startup
+RESP-0324,2026-08-24,2,1,"Unexpected invoice charges and no itemized breakdown. Still waiting 4 days for a response.",Enterprise Suite,North America,Enterprise
+RESP-0325,2026-08-25,10,5,"Automated insights pinpointed our regional drop before our quarterly review.",Mobile App,EMEA,Mid-Market
+RESP-0326,2026-08-26,3,2,"Documentation for the REST API is outdated and code samples contain broken syntax.",Analytics Cloud,APAC,SMB
+RESP-0327,2026-08-27,7,4,"Works well for day-to-day tracking, minor UI stutter when switching workspaces.",Billing Portal,LATAM,Startup
+RESP-0328,2026-08-28,1,1,"Downtime during month-end close caused major delays across our finance division.",Enterprise Suite,North America,Enterprise
+RESP-0329,2026-08-29,9,5,"Phenomenal workflow efficiency and our account manager is exceptionally proactive.",Mobile App,EMEA,Mid-Market
+RESP-0330,2026-08-30,10,5,"The new dashboard layout makes segment tracking effortless for our team.",Analytics Cloud,APAC,SMB
+RESP-0331,2026-08-31,9,5,"Customer support resolved our integration ticket in under 20 minutes.",Billing Portal,LATAM,Startup
+RESP-0332,2026-09-01,8,4,"Overall solid platform, but loading large datasets over 100k rows can be sluggish.",Enterprise Suite,North America,Enterprise
+RESP-0333,2026-09-02,4,2,"Mobile app crashes every time I export a dashboard to PDF. Very frustrating.",Mobile App,EMEA,Mid-Market
+RESP-0334,2026-09-03,2,1,"Unexpected invoice charges and no itemized breakdown. Still waiting 4 days for a response.",Analytics Cloud,APAC,SMB
+RESP-0335,2026-09-04,10,5,"Automated insights pinpointed our regional drop before our quarterly review.",Billing Portal,LATAM,Startup
+RESP-0336,2026-09-05,3,2,"Documentation for the REST API is outdated and code samples contain broken syntax.",Enterprise Suite,North America,Enterprise
+RESP-0337,2026-09-06,7,4,"Works well for day-to-day tracking, minor UI stutter when switching workspaces.",Mobile App,EMEA,Mid-Market
+RESP-0338,2026-09-07,1,1,"Downtime during month-end close caused major delays across our finance division.",Analytics Cloud,APAC,SMB
+RESP-0339,2026-09-08,9,5,"Phenomenal workflow efficiency and our account manager is exceptionally proactive.",Billing Portal,LATAM,Startup
+RESP-0340,2026-09-09,10,5,"The new dashboard layout makes segment tracking effortless for our team.",Enterprise Suite,North America,Enterprise
+RESP-0341,2026-09-10,9,5,"Customer support resolved our integration ticket in under 20 minutes.",Mobile App,EMEA,Mid-Market
+RESP-0342,2026-09-11,8,4,"Overall solid platform, but loading large datasets over 100k rows can be sluggish.",Analytics Cloud,APAC,SMB
+RESP-0343,2026-09-12,4,2,"Mobile app crashes every time I export a dashboard to PDF. Very frustrating.",Billing Portal,LATAM,Startup
+RESP-0344,2026-09-13,2,1,"Unexpected invoice charges and no itemized breakdown. Still waiting 4 days for a response.",Enterprise Suite,North America,Enterprise
+RESP-0345,2026-09-14,10,5,"Automated insights pinpointed our regional drop before our quarterly review.",Mobile App,EMEA,Mid-Market
+RESP-0346,2026-09-15,3,2,"Documentation for the REST API is outdated and code samples contain broken syntax.",Analytics Cloud,APAC,SMB
+RESP-0347,2026-09-16,7,4,"Works well for day-to-day tracking, minor UI stutter when switching workspaces.",Billing Portal,LATAM,Startup
+RESP-0348,2026-09-17,1,1,"Downtime during month-end close caused major delays across our finance division.",Enterprise Suite,North America,Enterprise
+RESP-0349,2026-09-18,9,5,"Phenomenal workflow efficiency and our account manager is exceptionally proactive.",Mobile App,EMEA,Mid-Market
+RESP-0350,2026-09-19,10,5,"The new dashboard layout makes segment tracking effortless for our team.",Analytics Cloud,APAC,SMB
+RESP-0351,2026-09-20,9,5,"Customer support resolved our integration ticket in under 20 minutes.",Billing Portal,LATAM,Startup
+RESP-0352,2026-09-21,8,4,"Overall solid platform, but loading large datasets over 100k rows can be sluggish.",Enterprise Suite,North America,Enterprise
+RESP-0353,2026-09-22,4,2,"Mobile app crashes every time I export a dashboard to PDF. Very frustrating.",Mobile App,EMEA,Mid-Market
+RESP-0354,2026-09-23,2,1,"Unexpected invoice charges and no itemized breakdown. Still waiting 4 days for a response.",Analytics Cloud,APAC,SMB
+RESP-0355,2026-09-24,10,5,"Automated insights pinpointed our regional drop before our quarterly review.",Billing Portal,LATAM,Startup
+RESP-0356,2026-09-25,3,2,"Documentation for the REST API is outdated and code samples contain broken syntax.",Enterprise Suite,North America,Enterprise
+RESP-0357,2026-09-26,7,4,"Works well for day-to-day tracking, minor UI stutter when switching workspaces.",Mobile App,EMEA,Mid-Market
+RESP-0358,2026-09-27,1,1,"Downtime during month-end close caused major delays across our finance division.",Analytics Cloud,APAC,SMB
+RESP-0359,2026-09-28,9,5,"Phenomenal workflow efficiency and our account manager is exceptionally proactive.",Billing Portal,LATAM,Startup
+RESP-0360,2026-09-29,10,5,"The new dashboard layout makes segment tracking effortless for our team.",Enterprise Suite,North America,Enterprise
+RESP-0361,2026-09-30,9,5,"Customer support resolved our integration ticket in under 20 minutes.",Mobile App,EMEA,Mid-Market
+RESP-0362,2026-10-01,8,4,"Overall solid platform, but loading large datasets over 100k rows can be sluggish.",Analytics Cloud,APAC,SMB
+RESP-0363,2026-10-02,4,2,"Mobile app crashes every time I export a dashboard to PDF. Very frustrating.",Billing Portal,LATAM,Startup
+RESP-0364,2026-10-03,2,1,"Unexpected invoice charges and no itemized breakdown. Still waiting 4 days for a response.",Enterprise Suite,North America,Enterprise
+RESP-0365,2026-10-04,10,5,"Automated insights pinpointed our regional drop before our quarterly review.",Mobile App,EMEA,Mid-Market
+RESP-0366,2026-10-05,3,2,"Documentation for the REST API is outdated and code samples contain broken syntax.",Analytics Cloud,APAC,SMB
+RESP-0367,2026-10-06,7,4,"Works well for day-to-day tracking, minor UI stutter when switching workspaces.",Billing Portal,LATAM,Startup
+RESP-0368,2026-10-07,1,1,"Downtime during month-end close caused major delays across our finance division.",Enterprise Suite,North America,Enterprise
+RESP-0369,2026-10-08,9,5,"Phenomenal workflow efficiency and our account manager is exceptionally proactive.",Mobile App,EMEA,Mid-Market
+RESP-0370,2026-10-09,10,5,"The new dashboard layout makes segment tracking effortless for our team.",Analytics Cloud,APAC,SMB
+RESP-0371,2026-10-10,9,5,"Customer support resolved our integration ticket in under 20 minutes.",Billing Portal,LATAM,Startup
+RESP-0372,2026-10-11,8,4,"Overall solid platform, but loading large datasets over 100k rows can be sluggish.",Enterprise Suite,North America,Enterprise
+RESP-0373,2026-10-12,4,2,"Mobile app crashes every time I export a dashboard to PDF. Very frustrating.",Mobile App,EMEA,Mid-Market
+RESP-0374,2026-10-13,2,1,"Unexpected invoice charges and no itemized breakdown. Still waiting 4 days for a response.",Analytics Cloud,APAC,SMB
+RESP-0375,2026-07-31,10,5,"Automated insights pinpointed our regional drop before our quarterly review.",Billing Portal,LATAM,Startup
+RESP-0376,2026-08-01,3,2,"Documentation for the REST API is outdated and code samples contain broken syntax.",Enterprise Suite,North America,Enterprise
+RESP-0377,2026-08-02,7,4,"Works well for day-to-day tracking, minor UI stutter when switching workspaces.",Mobile App,EMEA,Mid-Market
+RESP-0378,2026-08-03,1,1,"Downtime during month-end close caused major delays across our finance division.",Analytics Cloud,APAC,SMB
+RESP-0379,2026-08-04,9,5,"Phenomenal workflow efficiency and our account manager is exceptionally proactive.",Billing Portal,LATAM,Startup
+RESP-0380,2026-08-05,10,5,"The new dashboard layout makes segment tracking effortless for our team.",Enterprise Suite,North America,Enterprise
+RESP-0381,2026-08-06,9,5,"Customer support resolved our integration ticket in under 20 minutes.",Mobile App,EMEA,Mid-Market
+RESP-0382,2026-08-07,8,4,"Overall solid platform, but loading large datasets over 100k rows can be sluggish.",Analytics Cloud,APAC,SMB
+RESP-0383,2026-08-08,4,2,"Mobile app crashes every time I export a dashboard to PDF. Very frustrating.",Billing Portal,LATAM,Startup
+RESP-0384,2026-08-09,2,1,"Unexpected invoice charges and no itemized breakdown. Still waiting 4 days for a response.",Enterprise Suite,North America,Enterprise
+RESP-0385,2026-08-10,10,5,"Automated insights pinpointed our regional drop before our quarterly review.",Mobile App,EMEA,Mid-Market
+RESP-0386,2026-08-11,3,2,"Documentation for the REST API is outdated and code samples contain broken syntax.",Analytics Cloud,APAC,SMB
+RESP-0387,2026-08-12,7,4,"Works well for day-to-day tracking, minor UI stutter when switching workspaces.",Billing Portal,LATAM,Startup
+RESP-0388,2026-08-13,1,1,"Downtime during month-end close caused major delays across our finance division.",Enterprise Suite,North America,Enterprise
+RESP-0389,2026-08-14,9,5,"Phenomenal workflow efficiency and our account manager is exceptionally proactive.",Mobile App,EMEA,Mid-Market
+RESP-0390,2026-08-15,10,5,"The new dashboard layout makes segment tracking effortless for our team.",Analytics Cloud,APAC,SMB
+RESP-0391,2026-08-16,9,5,"Customer support resolved our integration ticket in under 20 minutes.",Billing Portal,LATAM,Startup
+RESP-0392,2026-08-17,8,4,"Overall solid platform, but loading large datasets over 100k rows can be sluggish.",Enterprise Suite,North America,Enterprise
+RESP-0393,2026-08-18,4,2,"Mobile app crashes every time I export a dashboard to PDF. Very frustrating.",Mobile App,EMEA,Mid-Market
+RESP-0394,2026-08-19,2,1,"Unexpected invoice charges and no itemized breakdown. Still waiting 4 days for a response.",Analytics Cloud,APAC,SMB
+RESP-0395,2026-08-20,10,5,"Automated insights pinpointed our regional drop before our quarterly review.",Billing Portal,LATAM,Startup
+RESP-0396,2026-08-21,3,2,"Documentation for the REST API is outdated and code samples contain broken syntax.",Enterprise Suite,North America,Enterprise
+RESP-0397,2026-08-22,7,4,"Works well for day-to-day tracking, minor UI stutter when switching workspaces.",Mobile App,EMEA,Mid-Market
+RESP-0398,2026-08-23,1,1,"Downtime during month-end close caused major delays across our finance division.",Analytics Cloud,APAC,SMB
+RESP-0399,2026-08-24,9,5,"Phenomenal workflow efficiency and our account manager is exceptionally proactive.",Billing Portal,LATAM,Startup
+RESP-0400,2026-08-25,10,5,"The new dashboard layout makes segment tracking effortless for our team.",Enterprise Suite,North America,Enterprise
+RESP-0401,2026-08-26,9,5,"Customer support resolved our integration ticket in under 20 minutes.",Mobile App,EMEA,Mid-Market
+RESP-0402,2026-08-27,8,4,"Overall solid platform, but loading large datasets over 100k rows can be sluggish.",Analytics Cloud,APAC,SMB
+RESP-0403,2026-08-28,4,2,"Mobile app crashes every time I export a dashboard to PDF. Very frustrating.",Billing Portal,LATAM,Startup
+RESP-0404,2026-08-29,2,1,"Unexpected invoice charges and no itemized breakdown. Still waiting 4 days for a response.",Enterprise Suite,North America,Enterprise
+RESP-0405,2026-08-30,10,5,"Automated insights pinpointed our regional drop before our quarterly review.",Mobile App,EMEA,Mid-Market
+RESP-0406,2026-08-31,3,2,"Documentation for the REST API is outdated and code samples contain broken syntax.",Analytics Cloud,APAC,SMB
+RESP-0407,2026-09-01,7,4,"Works well for day-to-day tracking, minor UI stutter when switching workspaces.",Billing Portal,LATAM,Startup
+RESP-0408,2026-09-02,1,1,"Downtime during month-end close caused major delays across our finance division.",Enterprise Suite,North America,Enterprise
+RESP-0409,2026-09-03,9,5,"Phenomenal workflow efficiency and our account manager is exceptionally proactive.",Mobile App,EMEA,Mid-Market
+RESP-0410,2026-09-04,10,5,"The new dashboard layout makes segment tracking effortless for our team.",Analytics Cloud,APAC,SMB
+RESP-0411,2026-09-05,9,5,"Customer support resolved our integration ticket in under 20 minutes.",Billing Portal,LATAM,Startup
+RESP-0412,2026-09-06,8,4,"Overall solid platform, but loading large datasets over 100k rows can be sluggish.",Enterprise Suite,North America,Enterprise
+RESP-0413,2026-09-07,4,2,"Mobile app crashes every time I export a dashboard to PDF. Very frustrating.",Mobile App,EMEA,Mid-Market
+RESP-0414,2026-09-08,2,1,"Unexpected invoice charges and no itemized breakdown. Still waiting 4 days for a response.",Analytics Cloud,APAC,SMB
+RESP-0415,2026-09-09,10,5,"Automated insights pinpointed our regional drop before our quarterly review.",Billing Portal,LATAM,Startup
+RESP-0416,2026-09-10,3,2,"Documentation for the REST API is outdated and code samples contain broken syntax.",Enterprise Suite,North America,Enterprise
+RESP-0417,2026-09-11,7,4,"Works well for day-to-day tracking, minor UI stutter when switching workspaces.",Mobile App,EMEA,Mid-Market
+RESP-0418,2026-09-12,1,1,"Downtime during month-end close caused major delays across our finance division.",Analytics Cloud,APAC,SMB
+RESP-0419,2026-09-13,9,5,"Phenomenal workflow efficiency and our account manager is exceptionally proactive.",Billing Portal,LATAM,Startup
+RESP-0420,2026-09-14,10,5,"The new dashboard layout makes segment tracking effortless for our team.",Enterprise Suite,North America,Enterprise
+RESP-0421,2026-09-15,9,5,"Customer support resolved our integration ticket in under 20 minutes.",Mobile App,EMEA,Mid-Market
+RESP-0422,2026-09-16,8,4,"Overall solid platform, but loading large datasets over 100k rows can be sluggish.",Analytics Cloud,APAC,SMB
+RESP-0423,2026-09-17,4,2,"Mobile app crashes every time I export a dashboard to PDF. Very frustrating.",Billing Portal,LATAM,Startup
+RESP-0424,2026-09-18,2,1,"Unexpected invoice charges and no itemized breakdown. Still waiting 4 days for a response.",Enterprise Suite,North America,Enterprise
+RESP-0425,2026-09-19,10,5,"Automated insights pinpointed our regional drop before our quarterly review.",Mobile App,EMEA,Mid-Market
+RESP-0426,2026-09-20,3,2,"Documentation for the REST API is outdated and code samples contain broken syntax.",Analytics Cloud,APAC,SMB
+RESP-0427,2026-09-21,7,4,"Works well for day-to-day tracking, minor UI stutter when switching workspaces.",Billing Portal,LATAM,Startup
+RESP-0428,2026-09-22,1,1,"Downtime during month-end close caused major delays across our finance division.",Enterprise Suite,North America,Enterprise
+RESP-0429,2026-09-23,9,5,"Phenomenal workflow efficiency and our account manager is exceptionally proactive.",Mobile App,EMEA,Mid-Market
+RESP-0430,2026-09-24,10,5,"The new dashboard layout makes segment tracking effortless for our team.",Analytics Cloud,APAC,SMB
+RESP-0431,2026-09-25,9,5,"Customer support resolved our integration ticket in under 20 minutes.",Billing Portal,LATAM,Startup
+RESP-0432,2026-09-26,8,4,"Overall solid platform, but loading large datasets over 100k rows can be sluggish.",Enterprise Suite,North America,Enterprise
+RESP-0433,2026-09-27,4,2,"Mobile app crashes every time I export a dashboard to PDF. Very frustrating.",Mobile App,EMEA,Mid-Market
+RESP-0434,2026-09-28,2,1,"Unexpected invoice charges and no itemized breakdown. Still waiting 4 days for a response.",Analytics Cloud,APAC,SMB
+RESP-0435,2026-09-29,10,5,"Automated insights pinpointed our regional drop before our quarterly review.",Billing Portal,LATAM,Startup
+RESP-0436,2026-09-30,3,2,"Documentation for the REST API is outdated and code samples contain broken syntax.",Enterprise Suite,North America,Enterprise
+RESP-0437,2026-10-01,7,4,"Works well for day-to-day tracking, minor UI stutter when switching workspaces.",Mobile App,EMEA,Mid-Market
+RESP-0438,2026-10-02,1,1,"Downtime during month-end close caused major delays across our finance division.",Analytics Cloud,APAC,SMB
+RESP-0439,2026-10-03,9,5,"Phenomenal workflow efficiency and our account manager is exceptionally proactive.",Billing Portal,LATAM,Startup
+RESP-0440,2026-10-04,10,5,"The new dashboard layout makes segment tracking effortless for our team.",Enterprise Suite,North America,Enterprise
+RESP-0441,2026-10-05,9,5,"Customer support resolved our integration ticket in under 20 minutes.",Mobile App,EMEA,Mid-Market
+RESP-0442,2026-10-06,8,4,"Overall solid platform, but loading large datasets over 100k rows can be sluggish.",Analytics Cloud,APAC,SMB
+RESP-0443,2026-10-07,4,2,"Mobile app crashes every time I export a dashboard to PDF. Very frustrating.",Billing Portal,LATAM,Startup
+RESP-0444,2026-10-08,2,1,"Unexpected invoice charges and no itemized breakdown. Still waiting 4 days for a response.",Enterprise Suite,North America,Enterprise
+RESP-0445,2026-10-09,10,5,"Automated insights pinpointed our regional drop before our quarterly review.",Mobile App,EMEA,Mid-Market
+RESP-0446,2026-10-10,3,2,"Documentation for the REST API is outdated and code samples contain broken syntax.",Analytics Cloud,APAC,SMB
+RESP-0447,2026-10-11,7,4,"Works well for day-to-day tracking, minor UI stutter when switching workspaces.",Billing Portal,LATAM,Startup
+RESP-0448,2026-10-12,1,1,"Downtime during month-end close caused major delays across our finance division.",Enterprise Suite,North America,Enterprise
+RESP-0449,2026-10-13,9,5,"Phenomenal workflow efficiency and our account manager is exceptionally proactive.",Mobile App,EMEA,Mid-Market
+RESP-0450,2026-07-31,10,5,"The new dashboard layout makes segment tracking effortless for our team.",Analytics Cloud,APAC,SMB
+RESP-0451,2026-08-01,9,5,"Customer support resolved our integration ticket in under 20 minutes.",Billing Portal,LATAM,Startup
+RESP-0452,2026-08-02,8,4,"Overall solid platform, but loading large datasets over 100k rows can be sluggish.",Enterprise Suite,North America,Enterprise
+RESP-0453,2026-08-03,4,2,"Mobile app crashes every time I export a dashboard to PDF. Very frustrating.",Mobile App,EMEA,Mid-Market
+RESP-0454,2026-08-04,2,1,"Unexpected invoice charges and no itemized breakdown. Still waiting 4 days for a response.",Analytics Cloud,APAC,SMB
+RESP-0455,2026-08-05,10,5,"Automated insights pinpointed our regional drop before our quarterly review.",Billing Portal,LATAM,Startup
+RESP-0456,2026-08-06,3,2,"Documentation for the REST API is outdated and code samples contain broken syntax.",Enterprise Suite,North America,Enterprise
+RESP-0457,2026-08-07,7,4,"Works well for day-to-day tracking, minor UI stutter when switching workspaces.",Mobile App,EMEA,Mid-Market
+RESP-0458,2026-08-08,1,1,"Downtime during month-end close caused major delays across our finance division.",Analytics Cloud,APAC,SMB
+RESP-0459,2026-08-09,9,5,"Phenomenal workflow efficiency and our account manager is exceptionally proactive.",Billing Portal,LATAM,Startup
+RESP-0460,2026-08-10,10,5,"The new dashboard layout makes segment tracking effortless for our team.",Enterprise Suite,North America,Enterprise
+RESP-0461,2026-08-11,9,5,"Customer support resolved our integration ticket in under 20 minutes.",Mobile App,EMEA,Mid-Market
+RESP-0462,2026-08-12,8,4,"Overall solid platform, but loading large datasets over 100k rows can be sluggish.",Analytics Cloud,APAC,SMB
+RESP-0463,2026-08-13,4,2,"Mobile app crashes every time I export a dashboard to PDF. Very frustrating.",Billing Portal,LATAM,Startup
+RESP-0464,2026-08-14,2,1,"Unexpected invoice charges and no itemized breakdown. Still waiting 4 days for a response.",Enterprise Suite,North America,Enterprise
+RESP-0465,2026-08-15,10,5,"Automated insights pinpointed our regional drop before our quarterly review.",Mobile App,EMEA,Mid-Market
+RESP-0466,2026-08-16,3,2,"Documentation for the REST API is outdated and code samples contain broken syntax.",Analytics Cloud,APAC,SMB
+RESP-0467,2026-08-17,7,4,"Works well for day-to-day tracking, minor UI stutter when switching workspaces.",Billing Portal,LATAM,Startup
+RESP-0468,2026-08-18,1,1,"Downtime during month-end close caused major delays across our finance division.",Enterprise Suite,North America,Enterprise
+RESP-0469,2026-08-19,9,5,"Phenomenal workflow efficiency and our account manager is exceptionally proactive.",Mobile App,EMEA,Mid-Market
+RESP-0470,2026-08-20,10,5,"The new dashboard layout makes segment tracking effortless for our team.",Analytics Cloud,APAC,SMB
+RESP-0471,2026-08-21,9,5,"Customer support resolved our integration ticket in under 20 minutes.",Billing Portal,LATAM,Startup
+RESP-0472,2026-08-22,8,4,"Overall solid platform, but loading large datasets over 100k rows can be sluggish.",Enterprise Suite,North America,Enterprise
+RESP-0473,2026-08-23,4,2,"Mobile app crashes every time I export a dashboard to PDF. Very frustrating.",Mobile App,EMEA,Mid-Market
+RESP-0474,2026-08-24,2,1,"Unexpected invoice charges and no itemized breakdown. Still waiting 4 days for a response.",Analytics Cloud,APAC,SMB
+RESP-0475,2026-08-25,10,5,"Automated insights pinpointed our regional drop before our quarterly review.",Billing Portal,LATAM,Startup
+RESP-0476,2026-08-26,3,2,"Documentation for the REST API is outdated and code samples contain broken syntax.",Enterprise Suite,North America,Enterprise
+RESP-0477,2026-08-27,7,4,"Works well for day-to-day tracking, minor UI stutter when switching workspaces.",Mobile App,EMEA,Mid-Market
+RESP-0478,2026-08-28,1,1,"Downtime during month-end close caused major delays across our finance division.",Analytics Cloud,APAC,SMB
+RESP-0479,2026-08-29,9,5,"Phenomenal workflow efficiency and our account manager is exceptionally proactive.",Billing Portal,LATAM,Startup
+RESP-0480,2026-08-30,10,5,"The new dashboard layout makes segment tracking effortless for our team.",Enterprise Suite,North America,Enterprise
+RESP-0481,2026-08-31,9,5,"Customer support resolved our integration ticket in under 20 minutes.",Mobile App,EMEA,Mid-Market
+RESP-0482,2026-09-01,8,4,"Overall solid platform, but loading large datasets over 100k rows can be sluggish.",Analytics Cloud,APAC,SMB
+RESP-0483,2026-09-02,4,2,"Mobile app crashes every time I export a dashboard to PDF. Very frustrating.",Billing Portal,LATAM,Startup
+RESP-0484,2026-09-03,2,1,"Unexpected invoice charges and no itemized breakdown. Still waiting 4 days for a response.",Enterprise Suite,North America,Enterprise
+RESP-0485,2026-09-04,10,5,"Automated insights pinpointed our regional drop before our quarterly review.",Mobile App,EMEA,Mid-Market
+RESP-0486,2026-09-05,3,2,"Documentation for the REST API is outdated and code samples contain broken syntax.",Analytics Cloud,APAC,SMB
+RESP-0487,2026-09-06,7,4,"Works well for day-to-day tracking, minor UI stutter when switching workspaces.",Billing Portal,LATAM,Startup
+RESP-0488,2026-09-07,1,1,"Downtime during month-end close caused major delays across our finance division.",Enterprise Suite,North America,Enterprise
+RESP-0489,2026-09-08,9,5,"Phenomenal workflow efficiency and our account manager is exceptionally proactive.",Mobile App,EMEA,Mid-Market
+RESP-0490,2026-09-09,10,5,"The new dashboard layout makes segment tracking effortless for our team.",Analytics Cloud,APAC,SMB
+RESP-0491,2026-09-10,9,5,"Customer support resolved our integration ticket in under 20 minutes.",Billing Portal,LATAM,Startup
+RESP-0492,2026-09-11,8,4,"Overall solid platform, but loading large datasets over 100k rows can be sluggish.",Enterprise Suite,North America,Enterprise
+RESP-0493,2026-09-12,4,2,"Mobile app crashes every time I export a dashboard to PDF. Very frustrating.",Mobile App,EMEA,Mid-Market
+RESP-0494,2026-09-13,2,1,"Unexpected invoice charges and no itemized breakdown. Still waiting 4 days for a response.",Analytics Cloud,APAC,SMB
+RESP-0495,2026-09-14,10,5,"Automated insights pinpointed our regional drop before our quarterly review.",Billing Portal,LATAM,Startup
+RESP-0496,2026-09-15,3,2,"Documentation for the REST API is outdated and code samples contain broken syntax.",Enterprise Suite,North America,Enterprise
+RESP-0497,2026-09-16,7,4,"Works well for day-to-day tracking, minor UI stutter when switching workspaces.",Mobile App,EMEA,Mid-Market
+RESP-0498,2026-09-17,1,1,"Downtime during month-end close caused major delays across our finance division.",Analytics Cloud,APAC,SMB
+RESP-0499,2026-09-18,9,5,"Phenomenal workflow efficiency and our account manager is exceptionally proactive.",Billing Portal,LATAM,Startup
+RESP-0500,2026-09-19,10,5,"The new dashboard layout makes segment tracking effortless for our team.",Enterprise Suite,North America,Enterprise

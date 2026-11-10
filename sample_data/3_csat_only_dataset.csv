@@ -1,0 +1,151 @@
+ticket_id,date,satisfaction_rating,comment,service_type
+CSAT-1,2026-09-01,5,"Customer support resolved our integration ticket in under 20 minutes.",Customer Support
+CSAT-2,2026-09-02,4,"Overall solid platform, but loading large datasets over 100k rows can be sluggish.",Customer Support
+CSAT-3,2026-09-03,2,"Mobile app crashes every time I export a dashboard to PDF. Very frustrating.",Customer Support
+CSAT-4,2026-09-04,1,"Unexpected invoice charges and no itemized breakdown. Still waiting 4 days for a response.",Customer Support
+CSAT-5,2026-09-05,5,"Automated insights pinpointed our regional drop before our quarterly review.",Customer Support
+CSAT-6,2026-09-06,2,"Documentation for the REST API is outdated and code samples contain broken syntax.",Customer Support
+CSAT-7,2026-09-07,4,"Works well for day-to-day tracking, minor UI stutter when switching workspaces.",Customer Support
+CSAT-8,2026-09-08,1,"Downtime during month-end close caused major delays across our finance division.",Customer Support
+CSAT-9,2026-09-09,5,"Phenomenal workflow efficiency and our account manager is exceptionally proactive.",Customer Support
+CSAT-10,2026-09-10,5,"The new dashboard layout makes segment tracking effortless for our team.",Customer Support
+CSAT-11,2026-09-11,5,"Customer support resolved our integration ticket in under 20 minutes.",Customer Support
+CSAT-12,2026-09-12,4,"Overall solid platform, but loading large datasets over 100k rows can be sluggish.",Customer Support
+CSAT-13,2026-09-13,2,"Mobile app crashes every time I export a dashboard to PDF. Very frustrating.",Customer Support
+CSAT-14,2026-09-14,1,"Unexpected invoice charges and no itemized breakdown. Still waiting 4 days for a response.",Customer Support
+CSAT-15,2026-09-15,5,"Automated insights pinpointed our regional drop before our quarterly review.",Customer Support
+CSAT-16,2026-09-16,2,"Documentation for the REST API is outdated and code samples contain broken syntax.",Customer Support
+CSAT-17,2026-09-17,4,"Works well for day-to-day tracking, minor UI stutter when switching workspaces.",Customer Support
+CSAT-18,2026-09-18,1,"Downtime during month-end close caused major delays across our finance division.",Customer Support
+CSAT-19,2026-09-19,5,"Phenomenal workflow efficiency and our account manager is exceptionally proactive.",Customer Support
+CSAT-20,2026-09-20,5,"The new dashboard layout makes segment tracking effortless for our team.",Customer Support
+CSAT-21,2026-09-21,5,"Customer support resolved our integration ticket in under 20 minutes.",Customer Support
+CSAT-22,2026-09-22,4,"Overall solid platform, but loading large datasets over 100k rows can be sluggish.",Customer Support
+CSAT-23,2026-09-23,2,"Mobile app crashes every time I export a dashboard to PDF. Very frustrating.",Customer Support
+CSAT-24,2026-09-24,1,"Unexpected invoice charges and no itemized breakdown. Still waiting 4 days for a response.",Customer Support
+CSAT-25,2026-09-25,5,"Automated insights pinpointed our regional drop before our quarterly review.",Customer Support
+CSAT-26,2026-09-26,2,"Documentation for the REST API is outdated and code samples contain broken syntax.",Customer Support
+CSAT-27,2026-09-27,4,"Works well for day-to-day tracking, minor UI stutter when switching workspaces.",Customer Support
+CSAT-28,2026-08-31,1,"Downtime during month-end close caused major delays across our finance division.",Customer Support
+CSAT-29,2026-09-01,5,"Phenomenal workflow efficiency and our account manager is exceptionally proactive.",Customer Support
+CSAT-30,2026-09-02,5,"The new dashboard layout makes segment tracking effortless for our team.",Customer Support
+CSAT-31,2026-09-03,5,"Customer support resolved our integration ticket in under 20 minutes.",Customer Support
+CSAT-32,2026-09-04,4,"Overall solid platform, but loading large datasets over 100k rows can be sluggish.",Customer Support
+CSAT-33,2026-09-05,2,"Mobile app crashes every time I export a dashboard to PDF. Very frustrating.",Customer Support
+CSAT-34,2026-09-06,1,"Unexpected invoice charges and no itemized breakdown. Still waiting 4 days for a response.",Customer Support
+CSAT-35,2026-09-07,5,"Automated insights pinpointed our regional drop before our quarterly review.",Customer Support
+CSAT-36,2026-09-08,2,"Documentation for the REST API is outdated and code samples contain broken syntax.",Customer Support
+CSAT-37,2026-09-09,4,"Works well for day-to-day tracking, minor UI stutter when switching workspaces.",Customer Support
+CSAT-38,2026-09-10,1,"Downtime during month-end close caused major delays across our finance division.",Customer Support
+CSAT-39,2026-09-11,5,"Phenomenal workflow efficiency and our account manager is exceptionally proactive.",Customer Support
+CSAT-40,2026-09-12,5,"The new dashboard layout makes segment tracking effortless for our team.",Customer Support
+CSAT-41,2026-09-13,5,"Customer support resolved our integration ticket in under 20 minutes.",Customer Support
+CSAT-42,2026-09-14,4,"Overall solid platform, but loading large datasets over 100k rows can be sluggish.",Customer Support
+CSAT-43,2026-09-15,2,"Mobile app crashes every time I export a dashboard to PDF. Very frustrating.",Customer Support
+CSAT-44,2026-09-16,1,"Unexpected invoice charges and no itemized breakdown. Still waiting 4 days for a response.",Customer Support
+CSAT-45,2026-09-17,5,"Automated insights pinpointed our regional drop before our quarterly review.",Customer Support
+CSAT-46,2026-09-18,2,"Documentation for the REST API is outdated and code samples contain broken syntax.",Customer Support
+CSAT-47,2026-09-19,4,"Works well for day-to-day tracking, minor UI stutter when switching workspaces.",Customer Support
+CSAT-48,2026-09-20,1,"Downtime during month-end close caused major delays across our finance division.",Customer Support
+CSAT-49,2026-09-21,5,"Phenomenal workflow efficiency and our account manager is exceptionally proactive.",Customer Support
+CSAT-50,2026-09-22,5,"The new dashboard layout makes segment tracking effortless for our team.",Customer Support
+CSAT-51,2026-09-23,5,"Customer support resolved our integration ticket in under 20 minutes.",Customer Support
+CSAT-52,2026-09-24,4,"Overall solid platform, but loading large datasets over 100k rows can be sluggish.",Customer Support
+CSAT-53,2026-09-25,2,"Mobile app crashes every time I export a dashboard to PDF. Very frustrating.",Customer Support
+CSAT-54,2026-09-26,1,"Unexpected invoice charges and no itemized breakdown. Still waiting 4 days for a response.",Customer Support
+CSAT-55,2026-09-27,5,"Automated insights pinpointed our regional drop before our quarterly review.",Customer Support
+CSAT-56,2026-08-31,2,"Documentation for the REST API is outdated and code samples contain broken syntax.",Customer Support
+CSAT-57,2026-09-01,4,"Works well for day-to-day tracking, minor UI stutter when switching workspaces.",Customer Support
+CSAT-58,2026-09-02,1,"Downtime during month-end close caused major delays across our finance division.",Customer Support
+CSAT-59,2026-09-03,5,"Phenomenal workflow efficiency and our account manager is exceptionally proactive.",Customer Support
+CSAT-60,2026-09-04,5,"The new dashboard layout makes segment tracking effortless for our team.",Customer Support
+CSAT-61,2026-09-05,5,"Customer support resolved our integration ticket in under 20 minutes.",Customer Support
+CSAT-62,2026-09-06,4,"Overall solid platform, but loading large datasets over 100k rows can be sluggish.",Customer Support
+CSAT-63,2026-09-07,2,"Mobile app crashes every time I export a dashboard to PDF. Very frustrating.",Customer Support
+CSAT-64,2026-09-08,1,"Unexpected invoice charges and no itemized breakdown. Still waiting 4 days for a response.",Customer Support
+CSAT-65,2026-09-09,5,"Automated insights pinpointed our regional drop before our quarterly review.",Customer Support
+CSAT-66,2026-09-10,2,"Documentation for the REST API is outdated and code samples contain broken syntax.",Customer Support
+CSAT-67,2026-09-11,4,"Works well for day-to-day tracking, minor UI stutter when switching workspaces.",Customer Support
+CSAT-68,2026-09-12,1,"Downtime during month-end close caused major delays across our finance division.",Customer Support
+CSAT-69,2026-09-13,5,"Phenomenal workflow efficiency and our account manager is exceptionally proactive.",Customer Support
+CSAT-70,2026-09-14,5,"The new dashboard layout makes segment tracking effortless for our team.",Customer Support
+CSAT-71,2026-09-15,5,"Customer support resolved our integration ticket in under 20 minutes.",Customer Support
+CSAT-72,2026-09-16,4,"Overall solid platform, but loading large datasets over 100k rows can be sluggish.",Customer Support
+CSAT-73,2026-09-17,2,"Mobile app crashes every time I export a dashboard to PDF. Very frustrating.",Customer Support
+CSAT-74,2026-09-18,1,"Unexpected invoice charges and no itemized breakdown. Still waiting 4 days for a response.",Customer Support
+CSAT-75,2026-09-19,5,"Automated insights pinpointed our regional drop before our quarterly review.",Customer Support
+CSAT-76,2026-09-20,2,"Documentation for the REST API is outdated and code samples contain broken syntax.",Customer Support
+CSAT-77,2026-09-21,4,"Works well for day-to-day tracking, minor UI stutter when switching workspaces.",Customer Support
+CSAT-78,2026-09-22,1,"Downtime during month-end close caused major delays across our finance division.",Customer Support
+CSAT-79,2026-09-23,5,"Phenomenal workflow efficiency and our account manager is exceptionally proactive.",Customer Support
+CSAT-80,2026-09-24,5,"The new dashboard layout makes segment tracking effortless for our team.",Customer Support
+CSAT-81,2026-09-25,5,"Customer support resolved our integration ticket in under 20 minutes.",Customer Support
+CSAT-82,2026-09-26,4,"Overall solid platform, but loading large datasets over 100k rows can be sluggish.",Customer Support
+CSAT-83,2026-09-27,2,"Mobile app crashes every time I export a dashboard to PDF. Very frustrating.",Customer Support
+CSAT-84,2026-08-31,1,"Unexpected invoice charges and no itemized breakdown. Still waiting 4 days for a response.",Customer Support
+CSAT-85,2026-09-01,5,"Automated insights pinpointed our regional drop before our quarterly review.",Customer Support
+CSAT-86,2026-09-02,2,"Documentation for the REST API is outdated and code samples contain broken syntax.",Customer Support
+CSAT-87,2026-09-03,4,"Works well for day-to-day tracking, minor UI stutter when switching workspaces.",Customer Support
+CSAT-88,2026-09-04,1,"Downtime during month-end close caused major delays across our finance division.",Customer Support
+CSAT-89,2026-09-05,5,"Phenomenal workflow efficiency and our account manager is exceptionally proactive.",Customer Support
+CSAT-90,2026-09-06,5,"The new dashboard layout makes segment tracking effortless for our team.",Customer Support
+CSAT-91,2026-09-07,5,"Customer support resolved our integration ticket in under 20 minutes.",Customer Support
+CSAT-92,2026-09-08,4,"Overall solid platform, but loading large datasets over 100k rows can be sluggish.",Customer Support
+CSAT-93,2026-09-09,2,"Mobile app crashes every time I export a dashboard to PDF. Very frustrating.",Customer Support
+CSAT-94,2026-09-10,1,"Unexpected invoice charges and no itemized breakdown. Still waiting 4 days for a response.",Customer Support
+CSAT-95,2026-09-11,5,"Automated insights pinpointed our regional drop before our quarterly review.",Customer Support
+CSAT-96,2026-09-12,2,"Documentation for the REST API is outdated and code samples contain broken syntax.",Customer Support
+CSAT-97,2026-09-13,4,"Works well for day-to-day tracking, minor UI stutter when switching workspaces.",Customer Support
+CSAT-98,2026-09-14,1,"Downtime during month-end close caused major delays across our finance division.",Customer Support
+CSAT-99,2026-09-15,5,"Phenomenal workflow efficiency and our account manager is exceptionally proactive.",Customer Support
+CSAT-100,2026-09-16,5,"The new dashboard layout makes segment tracking effortless for our team.",Customer Support
+CSAT-101,2026-09-17,5,"Customer support resolved our integration ticket in under 20 minutes.",Customer Support
+CSAT-102,2026-09-18,4,"Overall solid platform, but loading large datasets over 100k rows can be sluggish.",Customer Support
+CSAT-103,2026-09-19,2,"Mobile app crashes every time I export a dashboard to PDF. Very frustrating.",Customer Support
+CSAT-104,2026-09-20,1,"Unexpected invoice charges and no itemized breakdown. Still waiting 4 days for a response.",Customer Support
+CSAT-105,2026-09-21,5,"Automated insights pinpointed our regional drop before our quarterly review.",Customer Support
+CSAT-106,2026-09-22,2,"Documentation for the REST API is outdated and code samples contain broken syntax.",Customer Support
+CSAT-107,2026-09-23,4,"Works well for day-to-day tracking, minor UI stutter when switching workspaces.",Customer Support
+CSAT-108,2026-09-24,1,"Downtime during month-end close caused major delays across our finance division.",Customer Support
+CSAT-109,2026-09-25,5,"Phenomenal workflow efficiency and our account manager is exceptionally proactive.",Customer Support
+CSAT-110,2026-09-26,5,"The new dashboard layout makes segment tracking effortless for our team.",Customer Support
+CSAT-111,2026-09-27,5,"Customer support resolved our integration ticket in under 20 minutes.",Customer Support
+CSAT-112,2026-08-31,4,"Overall solid platform, but loading large datasets over 100k rows can be sluggish.",Customer Support
+CSAT-113,2026-09-01,2,"Mobile app crashes every time I export a dashboard to PDF. Very frustrating.",Customer Support
+CSAT-114,2026-09-02,1,"Unexpected invoice charges and no itemized breakdown. Still waiting 4 days for a response.",Customer Support
+CSAT-115,2026-09-03,5,"Automated insights pinpointed our regional drop before our quarterly review.",Customer Support
+CSAT-116,2026-09-04,2,"Documentation for the REST API is outdated and code samples contain broken syntax.",Customer Support
+CSAT-117,2026-09-05,4,"Works well for day-to-day tracking, minor UI stutter when switching workspaces.",Customer Support
+CSAT-118,2026-09-06,1,"Downtime during month-end close caused major delays across our finance division.",Customer Support
+CSAT-119,2026-09-07,5,"Phenomenal workflow efficiency and our account manager is exceptionally proactive.",Customer Support
+CSAT-120,2026-09-08,5,"The new dashboard layout makes segment tracking effortless for our team.",Customer Support
+CSAT-121,2026-09-09,5,"Customer support resolved our integration ticket in under 20 minutes.",Customer Support
+CSAT-122,2026-09-10,4,"Overall solid platform, but loading large datasets over 100k rows can be sluggish.",Customer Support
+CSAT-123,2026-09-11,2,"Mobile app crashes every time I export a dashboard to PDF. Very frustrating.",Customer Support
+CSAT-124,2026-09-12,1,"Unexpected invoice charges and no itemized breakdown. Still waiting 4 days for a response.",Customer Support
+CSAT-125,2026-09-13,5,"Automated insights pinpointed our regional drop before our quarterly review.",Customer Support
+CSAT-126,2026-09-14,2,"Documentation for the REST API is outdated and code samples contain broken syntax.",Customer Support
+CSAT-127,2026-09-15,4,"Works well for day-to-day tracking, minor UI stutter when switching workspaces.",Customer Support
+CSAT-128,2026-09-16,1,"Downtime during month-end close caused major delays across our finance division.",Customer Support
+CSAT-129,2026-09-17,5,"Phenomenal workflow efficiency and our account manager is exceptionally proactive.",Customer Support
+CSAT-130,2026-09-18,5,"The new dashboard layout makes segment tracking effortless for our team.",Customer Support
+CSAT-131,2026-09-19,5,"Customer support resolved our integration ticket in under 20 minutes.",Customer Support
+CSAT-132,2026-09-20,4,"Overall solid platform, but loading large datasets over 100k rows can be sluggish.",Customer Support
+CSAT-133,2026-09-21,2,"Mobile app crashes every time I export a dashboard to PDF. Very frustrating.",Customer Support
+CSAT-134,2026-09-22,1,"Unexpected invoice charges and no itemized breakdown. Still waiting 4 days for a response.",Customer Support
+CSAT-135,2026-09-23,5,"Automated insights pinpointed our regional drop before our quarterly review.",Customer Support
+CSAT-136,2026-09-24,2,"Documentation for the REST API is outdated and code samples contain broken syntax.",Customer Support
+CSAT-137,2026-09-25,4,"Works well for day-to-day tracking, minor UI stutter when switching workspaces.",Customer Support
+CSAT-138,2026-09-26,1,"Downtime during month-end close caused major delays across our finance division.",Customer Support
+CSAT-139,2026-09-27,5,"Phenomenal workflow efficiency and our account manager is exceptionally proactive.",Customer Support
+CSAT-140,2026-08-31,5,"The new dashboard layout makes segment tracking effortless for our team.",Customer Support
+CSAT-141,2026-09-01,5,"Customer support resolved our integration ticket in under 20 minutes.",Customer Support
+CSAT-142,2026-09-02,4,"Overall solid platform, but loading large datasets over 100k rows can be sluggish.",Customer Support
+CSAT-143,2026-09-03,2,"Mobile app crashes every time I export a dashboard to PDF. Very frustrating.",Customer Support
+CSAT-144,2026-09-04,1,"Unexpected invoice charges and no itemized breakdown. Still waiting 4 days for a response.",Customer Support
+CSAT-145,2026-09-05,5,"Automated insights pinpointed our regional drop before our quarterly review.",Customer Support
+CSAT-146,2026-09-06,2,"Documentation for the REST API is outdated and code samples contain broken syntax.",Customer Support
+CSAT-147,2026-09-07,4,"Works well for day-to-day tracking, minor UI stutter when switching workspaces.",Customer Support
+CSAT-148,2026-09-08,1,"Downtime during month-end close caused major delays across our finance division.",Customer Support
+CSAT-149,2026-09-09,5,"Phenomenal workflow efficiency and our account manager is exceptionally proactive.",Customer Support
+CSAT-150,2026-09-10,5,"The new dashboard layout makes segment tracking effortless for our team.",Customer Support
