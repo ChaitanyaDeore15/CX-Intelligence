@@ -13,10 +13,10 @@ import {
   RefreshCw,
   Sliders,
 } from 'lucide-react';
-import { Card, CardHeader, CardContent } from '@/components/ui/Card';
-import { Button } from '@/components/ui/Button';
-import { Alert } from '@/components/ui/Alert';
-import { Badge } from '@/components/ui/Badge';
+import { Card, CardHeader, CardContent } from '../../components/ui/Card';
+import { Button } from '../../components/ui/Button';
+import { Alert } from '../../components/ui/Alert';
+import { Badge } from '../../components/ui/Badge';
 
 export default function UploadPage() {
   const router = useRouter();
